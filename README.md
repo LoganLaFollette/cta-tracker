@@ -1,5 +1,9 @@
 # CTATracker Basic Setup
 
+>**Prerequisites:**
+>Angular CLI: 9.0.7 (https://cli.angular.io/)
+>Node: 12.16.1 (https://nodejs.org/en/download/)
+
 1) Create a new project folder e.g cta-tracker
 2) Pull down the repo: ```git clone https://github.com/LoganLaFollette/cta-tracker.git```
 3) Install the required node modules: ```npm install```
