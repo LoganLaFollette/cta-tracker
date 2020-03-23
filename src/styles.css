@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+h3 {
+    text-align: center;
+}
+body {
+    align-content: center;
+    background-color: black;
+}
+
+div {
+    /* text-align: center; */
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
