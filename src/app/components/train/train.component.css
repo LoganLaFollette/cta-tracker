@@ -20,3 +20,10 @@ table {
     background-color: orange;
     /* padding: 2px 30px 2px 30px */
 }
+
+/* .mat-footer-row,
+.mat-header-row,
+.mat-row {
+    display: inline-flex;
+    min-width: 100%;
+} */

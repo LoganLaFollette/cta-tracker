@@ -6,9 +6,6 @@ var request = require('request');
 const app = express();
 const port = 3000;
 
-// Where we will keep books
-let books = [];
-
 app.use(cors());
 
 // Configuring body parser middleware

@@ -2,16 +2,16 @@ import { Component, OnInit } from '@angular/core';
 import { TrainService } from './../../services/train.service';
 
 export interface TrainData {
-  position: string;
+  position: number;
   line: string;
   heading: string;
   eta: string;
 }
 
-const ELEMENT_DATA: TrainData[] = [
-  {position: "1", line: 'Orange', heading: 'Loop', eta: '2 min'},
-  {position: "2", line: 'Green', heading: 'Harlem/Lake', eta: '5 min'},
-  {position: "3", line: 'Red', heading: 'Loop', eta: '10 min'},
+var TRAIN_DATA: TrainData[] = [
+  // {position: "1", line: 'Orange', heading: 'Loop', eta: '2 min'},
+  // {position: "2", line: 'Green', heading: 'Harlem/Lake', eta: '5 min'},
+  // {position: "3", line: 'Red', heading: 'Loop', eta: '10 min'},
 ];
 
 @Component({
@@ -30,41 +30,60 @@ export class TrainComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-
-    
-
     this.trainColorMap.set('G', 'green');
     this.trainColorMap.set('Org', 'orange');
-    this.dataSource = ELEMENT_DATA;
-    //this.dataSource = [];
+    //this.dataSource = new BehaviorSubject([]);
+    this.trains = [];
 
     this.trainService.getTrains().subscribe( data => {
-      console.log(data.ctatt.eta);
-      this.trains = data.ctatt.eta;
-      for (var train in this.trains) {
-        var eta = this.trains[train].arrT
-        var timeEnd = new Date(eta).getTime();
-        var timeStart = new Date().getTime();
-        var hourDiff = timeEnd - timeStart; //in ms
-        var secDiff = hourDiff / 1000; //in s
-        var minDiff = hourDiff / 60 / 1000; //in minutes
+      var trainData = data["ctatt"].eta;
+      
+      console.log(trainData);
+      var position = 1;
+      for (var train in trainData) {
 
+        var newTrain = {
+          position: null,
+          line: null,
+          heading: null,
+          eta: null
+        };
         
-        if (minDiff > 1) {
-          this.trains[train].arrT = Math.round(minDiff) + " min";
-        } else {
-          this.trains[train].arrT = Math.round(secDiff) + " secs";
-        }
+        var eta = trainData[train].arrT
+        var estArrivalTime = new Date(eta).getTime();
+        var currTime = new Date().getTime();
+        // get total seconds between the times
+        var delta = Math.abs(estArrivalTime - currTime) / 1000;
+        // calculate (and subtract) whole days - should never really use days or hours
+        var days = Math.floor(delta / 86400);
+        delta -= days * 86400;
+        // calculate (and subtract) whole hours
+        var hours = Math.floor(delta / 3600) % 24;
+        delta -= hours * 3600;
+        // calculate (and subtract) whole minutes
+        var minutes = Math.floor(delta / 60) % 60;
+        delta -= minutes * 60;
+        // what's left is seconds
+        var seconds = Math.floor(delta % 60);  // in theory the modulus is not required
+        
+        var arrivalTime = minutes + " min and " + seconds + " seconds";
+        
+        newTrain["position"] = position;
+        newTrain["line"] = this.trainColorMap.get(trainData[train].rt);
+        newTrain["heading"] = trainData[train].destNm;
+        newTrain["eta"] = arrivalTime;
 
-        this.dataSource.push({
-          position: train,
-          line: this.trainColorMap.get(this.trains[train].rt),
-          heading: this.trains[train].destNm,
-          eta: this.trains[train].arrT
-        });      
-  
+        this.trains.push(newTrain);
+        TRAIN_DATA.push(newTrain);  
+        this.dataSource = [...this.trains];
+        position++;
       }
    });
+   
+  }
+
+  public refresh() {
+    window.location.reload();
   }
 
 }

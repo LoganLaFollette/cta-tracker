@@ -1,33 +1,26 @@
 <div class="container">
-    <h3>Roosevelt Arrivals</h3>
-    <div class="row">
-        
-    </div>
+    <h1>Roosevelt Arrivals</h1>
+    <br>
+    <div class="row"></div>
     <div class ="row">
         <div class="col-md-12" *ngFor="let train of trains">
             <div class="row">
                 <div class="col-md-4 trainLineColor">
-                    <p class="col-md-6 {{trainColorMap.get(train.rt)}}">
-                        {{trainColorMap.get(train.rt)}}
+                    <p class="col-md-6 {{train.line}}">
+                        {{train.line}}
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <p> {{train.destNm}}</p>
+                    <p> {{train.heading}}</p>
                 </div>
                 <div class="col-md-4">
-                    <p> {{train.arrT}}</p>
+                    <p> {{train.eta}}</p>
                 </div>
             </div>    
         </div>
         <br>
     </div>
-
-    <br>
-    <div>
-        TODO: figure out a good way to source the data ^ to the below table / with styling and some kind of transition
-    </div>
-    <br>
-    
+    <br>  
     <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
 
         <!--- Note that these columns can be defined in any order.
@@ -60,5 +53,9 @@
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
     </table>
+    <mat-paginator [pageSizeOptions]="[5, 10, 20, 50 ,100]" showFirstLastButtons></mat-paginator>
 
+    <button mat-icon-button color="primary" aria-label="Refresh Train Data" (click)="refresh()">
+        <mat-icon>refresh</mat-icon>
+    </button>
 </div>
