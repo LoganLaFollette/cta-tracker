@@ -43,8 +43,7 @@ table {
 }
 
 .cta-logo{
-    
-    width:100 px;
+   width:100 px;
    height:100 px;
    background-image: url('../../../assets/cta-logo.png');
    background-size: 100px 100px;
