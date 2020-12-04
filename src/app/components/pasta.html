@@ -1,0 +1,35 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="position">
+      <th mat-header-cell *matHeaderCellDef> Position </th>
+      <td mat-cell *matCellDef="let element"> {{element.position}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="line" class="green">
+      <th mat-header-cell *matHeaderCellDef> Line </th>
+      <td mat-cell *matCellDef="let element"> {{element.line}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="heading">
+      <th mat-header-cell *matHeaderCellDef> Heading </th>
+      <td mat-cell *matCellDef="let element"> {{element.heading}} </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="eta">
+      <th mat-header-cell *matHeaderCellDef> ETA (Roosevelt) </th>
+      <td mat-cell *matCellDef="let element"> {{element.eta}} </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <!-- <tr mat-row [ngClass]="{'green': row.line == 'green'}" *matRowDef="let row; columns: displayedColumns;"></tr>
+    <tr mat-row [ngClass]="{'orange': row.line == 'orange'}" *matRowDef="let row; columns: displayedColumns;"></tr> -->
+</table>
+<mat-paginator [pageSizeOptions]="[5, 10, 20, 50 ,100]" showFirstLastButtons></mat-paginator>

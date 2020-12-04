@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TrainService } from './../../services/train.service';
 
+
 export interface TrainData {
   position: number;
   line: string;
@@ -32,12 +33,17 @@ export class TrainComponent implements OnInit {
   ngOnInit(): void {
     this.trainColorMap.set('G', 'green');
     this.trainColorMap.set('Org', 'orange');
-    //this.dataSource = new BehaviorSubject([]);
     this.trains = [];
+    this.refreshData();
+    var interval = setInterval(() => { 
+        this.refreshData(); 
+    }, 5000);
+  }
 
+  refreshData() {
     this.trainService.getTrains().subscribe( data => {
       var trainData = data["ctatt"].eta;
-      
+      var updatedTrains = [];
       console.log(trainData);
       var position = 1;
       for (var train in trainData) {
@@ -66,20 +72,20 @@ export class TrainComponent implements OnInit {
         // what's left is seconds
         var seconds = Math.floor(delta % 60);  // in theory the modulus is not required
         
-        var arrivalTime = minutes + " min and " + seconds + " seconds";
-        
+        var arrivalTime =  minutes === 0 ? seconds + " seconds" : minutes + " min and " + seconds + " seconds";
         newTrain["position"] = position;
         newTrain["line"] = this.trainColorMap.get(trainData[train].rt);
         newTrain["heading"] = trainData[train].destNm;
         newTrain["eta"] = arrivalTime;
 
-        this.trains.push(newTrain);
+        updatedTrains.push(newTrain);
         TRAIN_DATA.push(newTrain);  
         this.dataSource = [...this.trains];
         position++;
       }
+
+      this.trains = updatedTrains;
    });
-   
   }
 
   public refresh() {
