@@ -1,10 +1,24 @@
+body {
+    background-image: url('../../../assets/cta-logo.png');
+}
+
+.title-div {
+    font-family: 'Impact', fantasy;
+    font-size:48px;
+    text-align: center;
+}
+
 div{
     background-color:black;
     color: white;
 }
 
 .rounded{
+    padding-top:5px;
     border-radius: 50px;
+    text-align: center;
+    font-size:16px;
+    font-family: 'Impact', fantasy
 }
 
 .route{
@@ -17,12 +31,10 @@ table {
 
 .green {
     background-color: green;
-    /* padding: 2px 30px 2px 30px */
 }
 
 .orange {
     background-color: orange;
-    /* padding: 2px 30px 2px 30px */
 }
 
 .blink_me {
@@ -38,13 +50,5 @@ table {
 .row {
     margin-top: 25px;
     box-shadow: 0 0 30px #353839;
-    /* padding:0 15px 0 15px; */
     background-color:#353839;
-}
-
-.cta-logo{
-   width:100 px;
-   height:100 px;
-   background-image: url('../../../assets/cta-logo.png');
-   background-size: 100px 100px;
 }
