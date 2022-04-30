@@ -1,6 +1,9 @@
 {
   "name": "cta-tracker",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -25,6 +28,7 @@
     "bootstrap": "^4.4.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "lodash": "^4.17.21",
     "request": "^2.88.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
@@ -35,11 +39,12 @@
     "@angular/cli": "^9.0.7",
     "@angular/compiler-cli": "~9.0.7",
     "@angular/language-service": "~9.0.7",
-    "@types/jasmine": "~3.5.0",
+    "@types/jasmine": "~3.8.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/lodash": "^4.14.182",
     "@types/node": "^12.11.1",
     "codelyzer": "^5.1.2",
-    "jasmine-core": "~3.5.0",
+    "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~6.3.16",
     "karma-chrome-launcher": "~3.1.0",

@@ -37,6 +37,10 @@ table {
     background-color: orange;
 }
 
+.blue {
+    background-color: blue;
+}
+
 .blink_me {
     animation: blinker 10s linear infinite;
 }

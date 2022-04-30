@@ -1,8 +1,8 @@
 # CTATracker Basic Setup
 
 >**Prerequisites:**
->Angular CLI: 9.0.7 (https://cli.angular.io/)
->Node: 12.16.1 (https://nodejs.org/en/download/)
+>Angular CLI: 9.0.7 (https://cli.angular.io/) || can probably be updated
+>Node: (https://nodejs.org/en/download/)
 
 1) Create a new project folder e.g cta-tracker
 2) Pull down the repo: ```git clone https://github.com/LoganLaFollette/cta-tracker.git```
@@ -12,6 +12,11 @@
 6) Head to localhost:4200 and view train data!
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+
+## General Info ##
+
+- Typescript version: 4.6.3 (tsc -v)
+- Node version:       14+ (seems to work best for me)
 
 ## Development server
 

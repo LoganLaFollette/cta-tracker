@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { CtaResponse } from '../models/eta';
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,7 @@ export class TrainService {
   ) { }
 
   getTrains() {
-    return this.http.get('http://localhost:3000/trains');
+    return this.http.get<CtaResponse>('http://localhost:3000/trains')
   }
 
 }

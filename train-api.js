@@ -12,16 +12,16 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/trains', (req, res) => {
+app.get('/trains', (_req, res) => {
     // We will be coding here
     request({
-      uri: 'https://lapi.transitchicago.com/api/1.0/ttarrivals.aspx',
+      uri: 'http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx',
       qs: {
-        key: 'dfbde4a79fa6438292426b120cc00f8a',
+        key: process.env.CTA_API_KEY,
         max: '5',
-        mapid: '41400',
+        mapid: '40590',
         outputType: 'JSON',
-        stpid: '30080'
+        // stpid: '30080'
       }
     }).pipe(res);
 });
