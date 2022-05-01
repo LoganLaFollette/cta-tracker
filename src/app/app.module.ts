@@ -12,6 +12,8 @@ import { TrainComponent } from './components/train/train.component';
 import { MatIconModule } from '@angular/material/icon';
 import { ArrivalsUiComponent } from './components/arrivals-ui/arrivals-ui.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,10 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     // MatPaginatorModule,
     // MatButtonModule,
     MatIconModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatSlideToggleModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

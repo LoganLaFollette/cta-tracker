@@ -24,13 +24,17 @@ export class ArrivalsUiComponent implements OnInit {
   trains: CtaArrival[];
   stationName: string;
 
+
   constructor(
     private trainService: TrainService,
   ) {
     this.trains = TRAIN_DATA;
   }
 
+  
+  
   ngOnInit(): void {
+
   }
 
 }

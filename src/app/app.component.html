@@ -1,3 +1,10 @@
-<div class="container">
+<div class="container-fluid mat-app-background">
+  <mat-toolbar color="primary" id="main-toolbar">
+    <span>Arrivals</span>
+    <div class="flexExpand"></div>
+    <mat-icon class="mr-8 toolbar-icon">brightness_5</mat-icon>
+    <mat-slide-toggle [formControl]="toggleControl" class="mr-8"></mat-slide-toggle>
+    <mat-icon>bedtime</mat-icon>
+  </mat-toolbar>
   <router-outlet></router-outlet>
 </div>

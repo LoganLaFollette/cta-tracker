@@ -1,0 +1,32 @@
+#main-toolbar {
+
+}
+
+.container-fluid {
+    height: 100vh;
+    padding: 0px;
+}
+
+my-app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.toolbar-icon {
+    margin: 5px;
+}
+
+.flexExpand {
+    flex: 1 1 auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+body div {
+    width: 100vw;
+    height: 100vh;
+}
