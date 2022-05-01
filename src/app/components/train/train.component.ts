@@ -25,6 +25,7 @@ const trainColorMap = new Map([
 export class TrainComponent implements OnInit {
   displayedColumns: string[] = ['position', 'line', 'heading', 'eta'];
   trains: CtaArrival[];
+  stationName: string;
   // dataSource: CtaArrival[];
 
   constructor(
@@ -58,6 +59,7 @@ export class TrainComponent implements OnInit {
       // TRAIN_DATA.push(newTrain);  
       // this.dataSource = updatedTrains;
       this.trains = updatedTrains;
+      this.stationName = data.name
    });
   }
 

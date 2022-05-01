@@ -28,6 +28,7 @@ export interface Ctatt {
 }
 
 export interface CtaResponse {
+    name: string,
     ctatt: Ctatt;
 }
 
