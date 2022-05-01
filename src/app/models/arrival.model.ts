@@ -1,4 +1,4 @@
-import { ICtaArrival } from "../interfaces/arrivals";
+import { ICtaArrival } from "../components/interfaces/arrivals";
 
 export class CtaArrival implements ICtaArrival {
     public position: number;

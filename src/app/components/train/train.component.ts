@@ -3,7 +3,7 @@ import { CtaResponse } from 'src/app/models/eta';
 import { TrainService } from './../../services/train.service';
 import * as _ from "lodash"
 import { calculateEtaString } from './utils/ctaUtils';
-import { CtaArrival } from './arrival.model';
+import { CtaArrival } from '../../models/arrival.model';
 
 // var TRAIN_DATA: CtaArrival[] = [
 //   // {position: "1", line: 'Orange', heading: 'Loop', eta: '2 min'},
@@ -20,7 +20,7 @@ const trainColorMap = new Map([
 @Component({
   selector: 'app-train',
   templateUrl: './train.component.html',
-  styleUrls: ['./train.component.css']
+  styleUrls: ['./train.component.scss']
 })
 export class TrainComponent implements OnInit {
   displayedColumns: string[] = ['position', 'line', 'heading', 'eta'];

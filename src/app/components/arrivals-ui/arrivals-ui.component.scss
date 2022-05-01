@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+#arrivals-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100% !important;
+}
+
+.toolbar-icon {
+    margin: 5px;
+}
+
+.flexExpand {
+    flex: 1 1 auto;
+}
