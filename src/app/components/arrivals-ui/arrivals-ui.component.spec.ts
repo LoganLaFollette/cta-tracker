@@ -8,8 +8,9 @@ describe('ArrivalsUiComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ArrivalsUiComponent ]
-    })
+    declarations: [ArrivalsUiComponent],
+    teardown: { destroyAfterEach: false }
+})
     .compileComponents();
   }));
 
