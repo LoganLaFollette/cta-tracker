@@ -47,3 +47,5 @@ Thumbs.db
 
 # ENV
 .env
+
+.angular/
