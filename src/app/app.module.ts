@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TrainComponent } from './components/train/train.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import {MatTableModule} from '@angular/material/table';
 // import { MatPaginatorModule } from '@angular/material/paginator';
 // import { MatButtonModule } from '@angular/material/button';
@@ -23,7 +23,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule,
+    // BrowserAnimationsModule,
     // MatTableModule,
     // MatPaginatorModule,
     // MatButtonModule,
