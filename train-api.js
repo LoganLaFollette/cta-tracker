@@ -7,6 +7,8 @@ var fs = require('fs');
 
 const app = express();
 const port = 3000;
+// roosevelt 41400
+// damen     40590
 const mapid = 41400
 var parentStopData;
 

@@ -6,13 +6,15 @@ export class CtaArrival implements ICtaArrival {
     public heading: string;
     public etaStr: string;
     public percentage: number;
+    public arrivalTime: string;
 
-    constructor(position: number, line: LineColor, heading: string, etaStr: string, percentage: number = 0) {
+    constructor(position: number, line: LineColor, heading: string, etaStr: string, percentage: number = 0, arrivalTime: string = "") {
         this.position = position,
         this.line = line,
         this.heading = heading,
         this.etaStr = etaStr,
         this.percentage = percentage
+        this.arrivalTime = arrivalTime
      }
     // public getPosition() { return this.position; }
     // public getLine() { return this.line; }

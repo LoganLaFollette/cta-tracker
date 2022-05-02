@@ -26,3 +26,23 @@ body div {
     width: 100vw;
     height: 100vh;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+    padding: 20px;
+}
+.ctaLogo{
+    width: 50px;
+    padding-left: 2px;
+}
+
+.sponsored {
+    float: right;
+    width: 130px;    
+    opacity: 50%;
+    font-style: italic;
+}

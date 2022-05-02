@@ -74,9 +74,10 @@
     <div class="trainDiv" *ngFor="let train of trains">
         <div> {{train.heading}} </div>
         <div class="iconDiv">
-            <div class="etaText"> {{train.etaStr}} </div>
+            <span class="etaText"> {{train.etaStr}} </span>
+            <span class="etaTime">Arriving at {{train.arrivalTime}}</span>
             
-            <mat-icon *ngIf="train.percentage > 11" class="trainIcon" [ngStyle]="{ 'margin-left': train.percentage-1+'%' }">train</mat-icon> 
+            <div class="trainPosition" *ngIf="train.percentage > 11" [ngStyle]="{ 'margin-left': train.percentage-1+'%' }"><mat-icon class="trainIcon">train</mat-icon></div>
         </div>
         <mat-progress-bar [ngClass]="{
             'green-progress': train.line === 'green',

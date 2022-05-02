@@ -102,3 +102,15 @@ body {
 .etaText{
   margin-bottom: -20px;
 }
+.etaTime{
+  float:right;
+}
+.trainPosition{
+  padding-bottom: 5px;
+}
+.trainIcon{
+  display: flex;
+  position: fixed;
+  margin-top: -5px;
+  z-index: 10;
+}

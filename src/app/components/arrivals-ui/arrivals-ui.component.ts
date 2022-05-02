@@ -14,10 +14,10 @@ const trainColorMap = new Map([
 ])
 
 var TRAIN_DATA: CtaArrival[] = [
-  new CtaArrival(1, LineColor.orange, 'Loop', '2 min', 95),
-  new CtaArrival(2, LineColor.green, 'Harlem/Lake', '5 min 30 seconds', 50),
-  new CtaArrival(3, LineColor.red, 'Loop', '10 min', 24),
-  new CtaArrival(3, LineColor.blue, 'Loop', '15 min and 10 seconds', 12),
+  new CtaArrival(1, LineColor.orange, 'Loop', '2 min', 100, "10:20pm"),
+  new CtaArrival(2, LineColor.green, 'Harlem/Lake', '5 min 30 seconds', 50, "10:34pm"),
+  new CtaArrival(3, LineColor.red, 'Loop', '10 min', 24, "10:43pm"),
+  new CtaArrival(3, LineColor.blue, 'Loop', '15 min and 10 seconds', 12, "10:50pm"),
 ];
 
 const etaProgressSeconds = 600; // 10 minutes
@@ -40,7 +40,7 @@ export class ArrivalsUiComponent implements OnInit {
   ngOnInit(): void {
     manageClock();
     setInterval(() => { 
-      // this.getEtas(); 
+      this.getEtas(); 
     }, 5000);
   }
 
@@ -58,7 +58,8 @@ export class ArrivalsUiComponent implements OnInit {
           trainColorMap.get(eta.rt),
           eta.destNm,
           calculateEtaString(estArrivalTime),
-          arrivalPct < 0 ? 0 : arrivalPct
+          arrivalPct < 0 ? 0 : arrivalPct,
+          new Date(estArrivalTime).toLocaleTimeString()
         )
       })
 
