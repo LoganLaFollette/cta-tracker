@@ -7,7 +7,7 @@ var fs = require('fs');
 
 const app = express();
 const port = 3000;
-const mapid = 40590
+const mapid = 41400
 var parentStopData;
 
 fs.readFile('./src/assets/parent-stop-mappings.json', 'utf8', function (err, data) {

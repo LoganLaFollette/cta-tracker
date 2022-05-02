@@ -5,8 +5,8 @@
 @include mat.core();
 
 // default light theme color configuration
-$angular-primary: mat.define-palette(mat.$teal-palette, 500, 100, 900);
-$angular-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$angular-primary: mat.define-palette(mat.$blue-palette, 500, 100, 900);
+$angular-accent: mat.define-palette(mat.$red-palette, A200, A100, A400);
 $angular-warn: mat.define-palette(mat.$red-palette);
 
 // light theme
@@ -34,4 +34,34 @@ $angular-dark-theme: mat.define-dark-theme(
 
 .darkMode {
   @include mat.all-component-colors($angular-dark-theme);
+}
+
+// progress bars
+
+.green-progress .mat-progress-bar-fill::after {
+  background-color: green !important;
+}
+
+.red-progress .mat-progress-bar-fill::after {
+  background-color: red !important;
+}
+
+.blue-progress .mat-progress-bar-fill::after {
+  background-color: blue !important;
+}
+
+.orange-progress .mat-progress-bar-fill::after {
+  background-color: orange !important;
+}
+
+.purple-progress .mat-progress-bar-fill::after {
+  background-color: purple !important;
+}
+
+.pink-progress .mat-progress-bar-fill::after {
+  background-color: pink !important;
+}
+
+.mat-progress-bar-buffer {
+  background-color: black !important;
 }

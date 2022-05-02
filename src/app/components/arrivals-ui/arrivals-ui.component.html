@@ -1,6 +1,93 @@
 <div class="arrivals-container container-fluid"> 
     <p>arrivals-ui works!</p>
-    <mat-icon> train </mat-icon>
+    <div class="clock-container">
+        <div class="clock">
+            <div class="clock__second"></div>
+            <div class="clock__minute"></div>
+            <div class="clock__hour"></div>
+            <div class="clock__axis"></div>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+            <section class="clock__indicator"></section>
+        </div>
+    </div>
+    
+    <br>
+
+    <div class="trainDiv" *ngFor="let train of trains">
+        <div> {{train.heading}} </div>
+        <div class="iconDiv">
+            <div class="etaText"> {{train.etaStr}} </div>
+            
+            <mat-icon *ngIf="train.percentage > 11" class="trainIcon" [ngStyle]="{ 'margin-left': train.percentage-1+'%' }">train</mat-icon> 
+        </div>
+        <mat-progress-bar [ngClass]="{
+            'green-progress': train.line === 'green',
+            'blue-progress': train.line === 'blue',
+            'red-progress': train.line === 'red',
+            'orange-progress': train.line === 'orange'
+        }" mode="buffer" value={{train.percentage}}>
+        </mat-progress-bar>
+        <!-- <div style="position: absolute; padding: 10px;"> test </div> -->
+        <br>
+    </div>
 </div>
 
 

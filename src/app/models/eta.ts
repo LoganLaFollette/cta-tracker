@@ -9,7 +9,7 @@ export interface IEta {
     destNm: string;
     trDr: string;
     prdt: Date;
-    arrT: Date;
+    arrT: string;
     isApp: string;
     isSch: string;
     isDly: string;
@@ -43,7 +43,7 @@ class Eta implements IEta {
     destNm: string;
     trDr: string;
     prdt: Date;
-    arrT: Date;
+    arrT: string;
     isApp: string;
     isSch: string;
     isDly: string;
