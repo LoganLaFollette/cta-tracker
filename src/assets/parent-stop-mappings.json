@@ -1,0 +1,578 @@
+{
+    "40010": {
+      "descriptiveName": "Austin",
+      "colors": "Blue"
+    },
+    "40020": {
+      "descriptiveName": "Harlem/Lake",
+      "colors": "Green"
+    },
+    "40030": {
+      "descriptiveName": "Pulaski",
+      "colors": "Green"
+    },
+    "40040": {
+      "descriptiveName": "Quincy/Wells",
+      "colors": "Brown, Orange, Purple, Pink"
+    },
+    "40050": {
+      "descriptiveName": "Davis",
+      "colors": "Purple"
+    },
+    "40060": {
+      "descriptiveName": "Belmont",
+      "colors": "Blue"
+    },
+    "40070": {
+      "descriptiveName": "Jackson",
+      "colors": "Blue"
+    },
+    "40080": {
+      "descriptiveName": "Sheridan",
+      "colors": "Red"
+    },
+    "40090": {
+      "descriptiveName": "Damen",
+      "colors": "Brown"
+    },
+    "40100": {
+      "descriptiveName": "Morse",
+      "colors": "Red"
+    },
+    "40120": {
+      "descriptiveName": "35th/Archer",
+      "colors": "Orange"
+    },
+    "40130": {
+      "descriptiveName": "51st",
+      "colors": "Green"
+    },
+    "40140": {
+      "descriptiveName": "Dempster-Skokie",
+      "colors": "Yellow"
+    },
+    "40150": {
+      "descriptiveName": "Pulaski",
+      "colors": "Pink"
+    },
+    "40160": {
+      "descriptiveName": "LaSalle/Van Buren",
+      "colors": "Brown, Orange, Purple, Pink"
+    },
+    "40170": {
+      "descriptiveName": "Ashland",
+      "colors": "Green, Pink"
+    },
+    "40180": {
+      "descriptiveName": "Oak Park",
+      "colors": "Blue"
+    },
+    "40190": {
+      "descriptiveName": "Sox-35th",
+      "colors": "Red"
+    },
+    "40200": {
+      "descriptiveName": "Randolph/Wabash",
+      "colors": "Brown, Green, Orange, Pink, Purple"
+    },
+    "40210": {
+      "descriptiveName": "Damen",
+      "colors": "Pink"
+    },
+    "40220": {
+      "descriptiveName": "Western",
+      "colors": "Blue - Forest Park Br."
+    },
+    "40230": {
+      "descriptiveName": "Cumberland",
+      "colors": "Blue"
+    },
+    "40240": {
+      "descriptiveName": "79th",
+      "colors": "Red"
+    },
+    "40250": {
+      "descriptiveName": "Kedzie-Homan",
+      "colors": "Blue"
+    },
+    "40260": {
+      "descriptiveName": "State/Lake",
+      "colors": "Brown, Green, Orange, Pink, Purple"
+    },
+    "40270": {
+      "descriptiveName": "Main",
+      "colors": "Purple"
+    },
+    "40280": {
+      "descriptiveName": "Central",
+      "colors": "Green"
+    },
+    "40290": {
+      "descriptiveName": "Ashland/63rd",
+      "colors": "Green"
+    },
+    "40300": {
+      "descriptiveName": "Indiana",
+      "colors": "Green"
+    },
+    "40310": {
+      "descriptiveName": "Western",
+      "colors": "Orange"
+    },
+    "40320": {
+      "descriptiveName": "Division",
+      "colors": "Blue"
+    },
+    "40330": {
+      "descriptiveName": "Grand",
+      "colors": "Red"
+    },
+    "40340": {
+      "descriptiveName": "Berwyn",
+      "colors": "Red"
+    },
+    "40350": {
+      "descriptiveName": "UIC-Halsted",
+      "colors": "Blue"
+    },
+    "40360": {
+      "descriptiveName": "Southport",
+      "colors": "Brown"
+    },
+    "40370": {
+      "descriptiveName": "Washington",
+      "colors": "Blue"
+    },
+    "40380": {
+      "descriptiveName": "Clark/Lake",
+      "colors": "Blue, Brown, Green, Orange, Purple, Pink"
+    },
+    "40390": {
+      "descriptiveName": "Forest Park",
+      "colors": "Blue"
+    },
+    "40400": {
+      "descriptiveName": "Noyes",
+      "colors": "Purple"
+    },
+    "40420": {
+      "descriptiveName": "Cicero",
+      "colors": "Pink"
+    },
+    "40430": {
+      "descriptiveName": "Clinton",
+      "colors": "Blue"
+    },
+    "40440": {
+      "descriptiveName": "California",
+      "colors": "Pink"
+    },
+    "40450": {
+      "descriptiveName": "95th/Ran Ryan",
+      "colors": "Red"
+    },
+    "40460": {
+      "descriptiveName": "Merchandise Mart",
+      "colors": "Brown, Purple"
+    },
+    "40470": {
+      "descriptiveName": "Racine",
+      "colors": "Blue"
+    },
+    "40480": {
+      "descriptiveName": "Cicero",
+      "colors": "Green"
+    },
+    "40490": {
+      "descriptiveName": "Grand",
+      "colors": "Blue"
+    },
+    "40510": {
+      "descriptiveName": "Garfield",
+      "colors": "Green"
+    },
+    "40520": {
+      "descriptiveName": "Foster",
+      "colors": "Purple"
+    },
+    "40530": {
+      "descriptiveName": "Diversey",
+      "colors": "Brown, Purple"
+    },
+    "40540": {
+      "descriptiveName": "Wilson",
+      "colors": "Red"
+    },
+    "40550": {
+      "descriptiveName": "Irving Park",
+      "colors": "Blue"
+    },
+    "40560": {
+      "descriptiveName": "Jackson",
+      "colors": "Red"
+    },
+    "40570": {
+      "descriptiveName": "California",
+      "colors": "Blue"
+    },
+    "40580": {
+      "descriptiveName": "54th/Cermak",
+      "colors": "Pink"
+    },
+    "40590": {
+      "descriptiveName": "Damen",
+      "colors": "Blue"
+    },
+    "40600": {
+      "descriptiveName": "Kostner",
+      "colors": "Pink"
+    },
+    "40610": {
+      "descriptiveName": "Ridgeland",
+      "colors": "Green"
+    },
+    "40630": {
+      "descriptiveName": "Clark/Division",
+      "colors": "Red"
+    },
+    "40650": {
+      "descriptiveName": "North/Clybourn",
+      "colors": "Red"
+    },
+    "40660": {
+      "descriptiveName": "Armitage",
+      "colors": "Brown, Purple"
+    },
+    "40670": {
+      "descriptiveName": "Western",
+      "colors": "Blue - O'Hare Br."
+    },
+    "40680": {
+      "descriptiveName": "Adams/Wabash",
+      "colors": "Brown, Green, Orange, Pink, Purple"
+    },
+    "40690": {
+      "descriptiveName": "Dempster",
+      "colors": "Purple"
+    },
+    "40700": {
+      "descriptiveName": "Laramie",
+      "colors": "Green"
+    },
+    "40710": {
+      "descriptiveName": "Chicago",
+      "colors": "Brown, Purple"
+    },
+    "40720": {
+      "descriptiveName": "Cottage Grove",
+      "colors": "Green"
+    },
+    "40730": {
+      "descriptiveName": "Washington/Wells",
+      "colors": "Brown, Orange, Purple, Pink"
+    },
+    "40740": {
+      "descriptiveName": "Western",
+      "colors": "Pink"
+    },
+    "40750": {
+      "descriptiveName": "Harlem",
+      "colors": "Blue - O'Hare Br."
+    },
+    "40760": {
+      "descriptiveName": "Granville",
+      "colors": "Red"
+    },
+    "40770": {
+      "descriptiveName": "Lawrence",
+      "colors": "Red"
+    },
+    "40780": {
+      "descriptiveName": "Central Park",
+      "colors": "Pink"
+    },
+    "40790": {
+      "descriptiveName": "Monroe",
+      "colors": "Blue"
+    },
+    "40800": {
+      "descriptiveName": "Sedgwick",
+      "colors": "Brown, Purple"
+    },
+    "40810": {
+      "descriptiveName": "Illinois Medical District",
+      "colors": "Blue"
+    },
+    "40820": {
+      "descriptiveName": "Rosemont",
+      "colors": "Blue"
+    },
+    "40830": {
+      "descriptiveName": "18th",
+      "colors": "Pink"
+    },
+    "40840": {
+      "descriptiveName": "South Boulevard",
+      "colors": "Purple"
+    },
+    "40850": {
+      "descriptiveName": "Harold Washington Library-State/Van Buren",
+      "colors": "Brown, Orange, Purple, Pink"
+    },
+    "40870": {
+      "descriptiveName": "Francisco",
+      "colors": "Brown"
+    },
+    "40880": {
+      "descriptiveName": "Thorndale",
+      "colors": "Red"
+    },
+    "40890": {
+      "descriptiveName": "O'Hare",
+      "colors": "Blue"
+    },
+    "40900": {
+      "descriptiveName": "Howard",
+      "colors": "Red, Purple, Yellow"
+    },
+    "40910": {
+      "descriptiveName": "63rd",
+      "colors": "Red"
+    },
+    "40920": {
+      "descriptiveName": "Pulaski",
+      "colors": "Blue"
+    },
+    "40930": {
+      "descriptiveName": "Midway",
+      "colors": "Orange"
+    },
+    "40940": {
+      "descriptiveName": "Halsted",
+      "colors": "Green"
+    },
+    "40960": {
+      "descriptiveName": "Pulaski",
+      "colors": "Orange"
+    },
+    "40970": {
+      "descriptiveName": "Cicero",
+      "colors": "Blue"
+    },
+    "40980": {
+      "descriptiveName": "Harlem",
+      "colors": "Blue - Forest Park Br."
+    },
+    "40990": {
+      "descriptiveName": "69th",
+      "colors": "Red"
+    },
+    "41000": {
+      "descriptiveName": "Cermak-Chinatown",
+      "colors": "Red"
+    },
+    "41010": {
+      "descriptiveName": "Rockwell",
+      "colors": "Brown"
+    },
+    "41020": {
+      "descriptiveName": "Logan Square",
+      "colors": "Blue"
+    },
+    "41030": {
+      "descriptiveName": "Polk",
+      "colors": "Pink"
+    },
+    "41040": {
+      "descriptiveName": "Kedzie",
+      "colors": "Pink"
+    },
+    "41050": {
+      "descriptiveName": "Linden",
+      "colors": "Purple"
+    },
+    "41060": {
+      "descriptiveName": "Ashland",
+      "colors": "Orange"
+    },
+    "41070": {
+      "descriptiveName": "Kedzie",
+      "colors": "Green"
+    },
+    "41080": {
+      "descriptiveName": "47th",
+      "colors": "Green"
+    },
+    "41090": {
+      "descriptiveName": "Monroe",
+      "colors": "Red"
+    },
+    "41120": {
+      "descriptiveName": "35th-Bronzeville-IIT",
+      "colors": "Green"
+    },
+    "41130": {
+      "descriptiveName": "Halsted",
+      "colors": "Orange"
+    },
+    "41140": {
+      "descriptiveName": "King Drive",
+      "colors": "Green"
+    },
+    "41150": {
+      "descriptiveName": "Kedzie",
+      "colors": "Orange"
+    },
+    "41160": {
+      "descriptiveName": "Clinton",
+      "colors": "Green, Pink"
+    },
+    "41170": {
+      "descriptiveName": "Garfield",
+      "colors": "Red"
+    },
+    "41180": {
+      "descriptiveName": "Kedzie",
+      "colors": "Brown"
+    },
+    "41190": {
+      "descriptiveName": "Jarvis",
+      "colors": "Red"
+    },
+    "41200": {
+      "descriptiveName": "Argyle",
+      "colors": "Red"
+    },
+    "41210": {
+      "descriptiveName": "Wellington",
+      "colors": "Brown, Purple"
+    },
+    "41220": {
+      "descriptiveName": "Fullerton",
+      "colors": "Red, Brown, Purple"
+    },
+    "41230": {
+      "descriptiveName": "47th",
+      "colors": "Red"
+    },
+    "41240": {
+      "descriptiveName": "Addison",
+      "colors": "Blue"
+    },
+    "41250": {
+      "descriptiveName": "Central",
+      "colors": "Purple"
+    },
+    "41260": {
+      "descriptiveName": "Austin",
+      "colors": "Green"
+    },
+    "41270": {
+      "descriptiveName": "43rd",
+      "colors": "Green"
+    },
+    "41280": {
+      "descriptiveName": "Jefferson Park",
+      "colors": "Blue"
+    },
+    "41290": {
+      "descriptiveName": "Kimball",
+      "colors": "Brown"
+    },
+    "41300": {
+      "descriptiveName": "Loyola",
+      "colors": "Red"
+    },
+    "41310": {
+      "descriptiveName": "Paulina",
+      "colors": "Brown"
+    },
+    "41320": {
+      "descriptiveName": "Belmont",
+      "colors": "Red, Brown, Purple"
+    },
+    "41330": {
+      "descriptiveName": "Montrose",
+      "colors": "Blue"
+    },
+    "41340": {
+      "descriptiveName": "LaSalle",
+      "colors": "Blue"
+    },
+    "41350": {
+      "descriptiveName": "Oak Park",
+      "colors": "Green"
+    },
+    "41360": {
+      "descriptiveName": "California",
+      "colors": "Green"
+    },
+    "41380": {
+      "descriptiveName": "Bryn Mawr",
+      "colors": "Red"
+    },
+    "41400": {
+      "descriptiveName": "Roosevelt",
+      "colors": "Red, Orange, Green"
+    },
+    "41410": {
+      "descriptiveName": "Chicago",
+      "colors": "Blue"
+    },
+    "41420": {
+      "descriptiveName": "Addison",
+      "colors": "Red"
+    },
+    "41430": {
+      "descriptiveName": "87th",
+      "colors": "Red"
+    },
+    "41440": {
+      "descriptiveName": "Addison",
+      "colors": "Brown"
+    },
+    "41450": {
+      "descriptiveName": "Chicago",
+      "colors": "Red"
+    },
+    "41460": {
+      "descriptiveName": "Irving Park",
+      "colors": "Brown"
+    },
+    "41480": {
+      "descriptiveName": "Western",
+      "colors": "Brown"
+    },
+    "41490": {
+      "descriptiveName": "Harrison",
+      "colors": "Red"
+    },
+    "41500": {
+      "descriptiveName": "Montrose",
+      "colors": "Brown"
+    },
+    "41510": {
+      "descriptiveName": "Morgan",
+      "colors": "Green, Pink"
+    },
+    "41660": {
+      "descriptiveName": "Lake",
+      "colors": "Red"
+    },
+    "41670": {
+      "descriptiveName": "Conservatory",
+      "colors": "Green"
+    },
+    "41680": {
+      "descriptiveName": "Oakton-Skokie",
+      "colors": "Yellow"
+    },
+    "41690": {
+      "descriptiveName": "Cermak-McCormick Place",
+      "colors": "Green"
+    },
+    "41700": {
+      "descriptiveName": "Washington/Wabash",
+      "colors": "Brown, Green, Orange, Pink, Purple"
+    }
+  }

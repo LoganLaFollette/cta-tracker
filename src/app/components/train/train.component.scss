@@ -56,3 +56,24 @@ table {
     box-shadow: 0 0 30px #353839;
     background-color:#353839;
 }
+
+h3 {
+    text-align: center;
+}
+body {
+    align-content: center;
+    background-color: black;
+}
+
+p {
+    display: inline-block;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

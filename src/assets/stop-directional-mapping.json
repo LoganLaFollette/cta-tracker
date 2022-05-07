@@ -1,0 +1,1502 @@
+{
+    "30001": {
+      "DIR": "E",
+      "Stop Name": "Austin (O'Hare-bound)",
+      "Parent Stop ID": 40010
+    },
+    "30002": {
+      "DIR": "W",
+      "Stop Name": "Austin (Forest Pk-bound)",
+      "Parent Stop ID": 40010
+    },
+    "30003": {
+      "DIR": "E",
+      "Stop Name": "Harlem (63rd-bound)",
+      "Parent Stop ID": 40020
+    },
+    "30004": {
+      "DIR": "W",
+      "Stop Name": "Harlem (Terminal arrival)",
+      "Parent Stop ID": 40020
+    },
+    "30005": {
+      "DIR": "E",
+      "Stop Name": "Pulaski (63rd-bound)",
+      "Parent Stop ID": 40030
+    },
+    "30006": {
+      "DIR": "W",
+      "Stop Name": "Pulaski (Harlem-bound)",
+      "Parent Stop ID": 40030
+    },
+    "30007": {
+      "DIR": "N",
+      "Stop Name": "Quincy/Wells (Inner Loop)",
+      "Parent Stop ID": 40040
+    },
+    "30008": {
+      "DIR": "S",
+      "Stop Name": "Quincy/Wells (Outer Loop)",
+      "Parent Stop ID": 40040
+    },
+    "30009": {
+      "DIR": "W",
+      "Stop Name": "Cicero (Harlem-bound)",
+      "Parent Stop ID": 40480
+    },
+    "30010": {
+      "DIR": "N",
+      "Stop Name": "Davis (Linden-bound)",
+      "Parent Stop ID": 40050
+    },
+    "30011": {
+      "DIR": "S",
+      "Stop Name": "Davis (Howard-Loop-bound)",
+      "Parent Stop ID": 40050
+    },
+    "30012": {
+      "DIR": "N",
+      "Stop Name": "Belmont (O'Hare Branch) (O'Hare-bound)",
+      "Parent Stop ID": 40060
+    },
+    "30013": {
+      "DIR": "S",
+      "Stop Name": "Belmont (O'Hare Branch) (Forest Pk-bound)",
+      "Parent Stop ID": 40060
+    },
+    "30014": {
+      "DIR": "N",
+      "Stop Name": "Jackson/Dearborn (O'Hare-bound)",
+      "Parent Stop ID": 40070
+    },
+    "30015": {
+      "DIR": "S",
+      "Stop Name": "Jackson/Dearborn (Forest Pk-bound)",
+      "Parent Stop ID": 40070
+    },
+    "30016": {
+      "DIR": "N",
+      "Stop Name": "Sheridan (Howard-bound)",
+      "Parent Stop ID": 40080
+    },
+    "30017": {
+      "DIR": "S",
+      "Stop Name": "Sheridan (95th-bound)",
+      "Parent Stop ID": 40080
+    },
+    "30018": {
+      "DIR": "N",
+      "Stop Name": "Damen (Kimball-bound)",
+      "Parent Stop ID": 40090
+    },
+    "30019": {
+      "DIR": "S",
+      "Stop Name": "Damen (Loop-bound)",
+      "Parent Stop ID": 40090
+    },
+    "30020": {
+      "DIR": "N",
+      "Stop Name": "Morse (Howard-bound)",
+      "Parent Stop ID": 40100
+    },
+    "30021": {
+      "DIR": "S",
+      "Stop Name": "Morse (95th-bound)",
+      "Parent Stop ID": 40100
+    },
+    "30022": {
+      "DIR": "N",
+      "Stop Name": "35th/Archer (Loop-bound)",
+      "Parent Stop ID": 40120
+    },
+    "30023": {
+      "DIR": "S",
+      "Stop Name": "35th/Archer (Midway-bound)",
+      "Parent Stop ID": 40120
+    },
+    "30024": {
+      "DIR": "N",
+      "Stop Name": "51st (Harlem-bound)",
+      "Parent Stop ID": 40130
+    },
+    "30025": {
+      "DIR": "S",
+      "Stop Name": "51st (63rd-bound)",
+      "Parent Stop ID": 40130
+    },
+    "30026": {
+      "DIR": "N",
+      "Stop Name": "Dempster-Skokie (Arrival)",
+      "Parent Stop ID": 40140
+    },
+    "30027": {
+      "DIR": "S",
+      "Stop Name": "Dempster-Skokie (Howard-bound)",
+      "Parent Stop ID": 40140
+    },
+    "30028": {
+      "DIR": "E",
+      "Stop Name": "Pulaski (Loop-bound)",
+      "Parent Stop ID": 40150
+    },
+    "30029": {
+      "DIR": "W",
+      "Stop Name": "Pulaski (54th/Cermak-bound)",
+      "Parent Stop ID": 40150
+    },
+    "30030": {
+      "DIR": "E",
+      "Stop Name": "LaSalle/Van Buren (Outer Loop)",
+      "Parent Stop ID": 40160
+    },
+    "30031": {
+      "DIR": "W",
+      "Stop Name": "LaSalle/Van Buren (Inner Loop)",
+      "Parent Stop ID": 40160
+    },
+    "30032": {
+      "DIR": "E",
+      "Stop Name": "Ashland (Loop-63rd-bound)",
+      "Parent Stop ID": 40170
+    },
+    "30033": {
+      "DIR": "W",
+      "Stop Name": "Ashland (Harlem-54th/Cermak-bound)",
+      "Parent Stop ID": 40170
+    },
+    "30034": {
+      "DIR": "E",
+      "Stop Name": "Oak Park (O'Hare-bound)",
+      "Parent Stop ID": 40180
+    },
+    "30035": {
+      "DIR": "W",
+      "Stop Name": "Oak Park (Forest Pk-bound)",
+      "Parent Stop ID": 40180
+    },
+    "30036": {
+      "DIR": "N",
+      "Stop Name": "Sox-35th (Howard-bound)",
+      "Parent Stop ID": 40190
+    },
+    "30037": {
+      "DIR": "S",
+      "Stop Name": "Sox-35th (95th-bound)",
+      "Parent Stop ID": 40190
+    },
+    "30040": {
+      "DIR": "E",
+      "Stop Name": "Damen (Loop-bound)",
+      "Parent Stop ID": 40210
+    },
+    "30041": {
+      "DIR": "W",
+      "Stop Name": "Damen (54th/Cermak-bound)",
+      "Parent Stop ID": 40210
+    },
+    "30042": {
+      "DIR": "E",
+      "Stop Name": "Western (Forest Pk Branch) (O'Hare-bound)",
+      "Parent Stop ID": 40220
+    },
+    "30043": {
+      "DIR": "W",
+      "Stop Name": "Western (Forest Pk Branch) (Forest Pk-bound)",
+      "Parent Stop ID": 40220
+    },
+    "30044": {
+      "DIR": "N",
+      "Stop Name": "Cumberland (O'Hare-bound)",
+      "Parent Stop ID": 40230
+    },
+    "30045": {
+      "DIR": "S",
+      "Stop Name": "Cumberland (Forest Pk-bound)",
+      "Parent Stop ID": 40230
+    },
+    "30046": {
+      "DIR": "N",
+      "Stop Name": "79th (Howard-bound)",
+      "Parent Stop ID": 40240
+    },
+    "30047": {
+      "DIR": "S",
+      "Stop Name": "79th (95th-bound)",
+      "Parent Stop ID": 40240
+    },
+    "30048": {
+      "DIR": "E",
+      "Stop Name": "Kedzie-Homan (O'Hare-bound)",
+      "Parent Stop ID": 40250
+    },
+    "30049": {
+      "DIR": "W",
+      "Stop Name": "Kedzie-Homan (Forest Pk-bound)",
+      "Parent Stop ID": 40250
+    },
+    "30050": {
+      "DIR": "E",
+      "Stop Name": "State/Lake (Inner Loop)",
+      "Parent Stop ID": 40260
+    },
+    "30051": {
+      "DIR": "W",
+      "Stop Name": "State/Lake (Outer Loop)",
+      "Parent Stop ID": 40260
+    },
+    "30052": {
+      "DIR": "N",
+      "Stop Name": "Main (Linden-bound)",
+      "Parent Stop ID": 40270
+    },
+    "30053": {
+      "DIR": "S",
+      "Stop Name": "Main (Howard-Loop-bound)",
+      "Parent Stop ID": 40270
+    },
+    "30054": {
+      "DIR": "E",
+      "Stop Name": "Central (63rd-bound)",
+      "Parent Stop ID": 40280
+    },
+    "30055": {
+      "DIR": "W",
+      "Stop Name": "Central (Harlem-bound)",
+      "Parent Stop ID": 40280
+    },
+    "30056": {
+      "DIR": "E",
+      "Stop Name": "Ashland/63rd (Harlem-bound)",
+      "Parent Stop ID": 40290
+    },
+    "30057": {
+      "DIR": "W",
+      "Stop Name": "Ashland/63rd (Terminal arrival)",
+      "Parent Stop ID": 40290
+    },
+    "30058": {
+      "DIR": "N",
+      "Stop Name": "Indiana (Harlem-bound)",
+      "Parent Stop ID": 40300
+    },
+    "30059": {
+      "DIR": "S",
+      "Stop Name": "Indiana (63rd-bound)",
+      "Parent Stop ID": 40300
+    },
+    "30060": {
+      "DIR": "N",
+      "Stop Name": "Western (Loop-bound)",
+      "Parent Stop ID": 40310
+    },
+    "30061": {
+      "DIR": "S",
+      "Stop Name": "Western (Midway-bound)",
+      "Parent Stop ID": 40310
+    },
+    "30062": {
+      "DIR": "N",
+      "Stop Name": "Division (O'Hare-bound)",
+      "Parent Stop ID": 40320
+    },
+    "30063": {
+      "DIR": "S",
+      "Stop Name": "Division (Forest Pk-bound)",
+      "Parent Stop ID": 40320
+    },
+    "30064": {
+      "DIR": "N",
+      "Stop Name": "Grand/State (Howard-bound)",
+      "Parent Stop ID": 40330
+    },
+    "30065": {
+      "DIR": "S",
+      "Stop Name": "Grand/State (95th-bound)",
+      "Parent Stop ID": 40330
+    },
+    "30066": {
+      "DIR": "N",
+      "Stop Name": "Berwyn (Howard-bound)",
+      "Parent Stop ID": 40340
+    },
+    "30067": {
+      "DIR": "S",
+      "Stop Name": "Berwyn (95th-bound)",
+      "Parent Stop ID": 40340
+    },
+    "30068": {
+      "DIR": "E",
+      "Stop Name": "UIC-Halsted (O'Hare-bound)",
+      "Parent Stop ID": 40350
+    },
+    "30069": {
+      "DIR": "W",
+      "Stop Name": "UIC-Halsted (Forest Pk-bound)",
+      "Parent Stop ID": 40350
+    },
+    "30070": {
+      "DIR": "N",
+      "Stop Name": "Southport (Kimball-bound)",
+      "Parent Stop ID": 40360
+    },
+    "30071": {
+      "DIR": "S",
+      "Stop Name": "Southport (Loop-bound)",
+      "Parent Stop ID": 40360
+    },
+    "30072": {
+      "DIR": "N",
+      "Stop Name": "Washington (O'Hare-bound)",
+      "Parent Stop ID": 40370
+    },
+    "30073": {
+      "DIR": "S",
+      "Stop Name": "Washington (Forest Pk-bound)",
+      "Parent Stop ID": 40370
+    },
+    "30074": {
+      "DIR": "E",
+      "Stop Name": "Clark/Lake (Inner Loop)",
+      "Parent Stop ID": 40380
+    },
+    "30075": {
+      "DIR": "W",
+      "Stop Name": "Clark/Lake (Outer Loop)",
+      "Parent Stop ID": 40380
+    },
+    "30076": {
+      "DIR": "E",
+      "Stop Name": "Forest Park (O'Hare-bound)",
+      "Parent Stop ID": 40390
+    },
+    "30077": {
+      "DIR": "W",
+      "Stop Name": "Forest Park (Terminal Arrival)",
+      "Parent Stop ID": 40390
+    },
+    "30078": {
+      "DIR": "N",
+      "Stop Name": "Noyes (Linden-bound)",
+      "Parent Stop ID": 40400
+    },
+    "30079": {
+      "DIR": "S",
+      "Stop Name": "Noyes (Howard-Loop-bound)",
+      "Parent Stop ID": 40400
+    },
+    "30080": {
+      "DIR": "N",
+      "Stop Name": "Roosevelt (Loop-Harlem-bound)",
+      "Parent Stop ID": 41400
+    },
+    "30081": {
+      "DIR": "S",
+      "Stop Name": "Roosevelt (Midway-63rd-bound)",
+      "Parent Stop ID": 41400
+    },
+    "30082": {
+      "DIR": "E",
+      "Stop Name": "Cicero (Loop-bound)",
+      "Parent Stop ID": 40420
+    },
+    "30083": {
+      "DIR": "W",
+      "Stop Name": "Cicero (54th/Cermak-bound)",
+      "Parent Stop ID": 40420
+    },
+    "30084": {
+      "DIR": "E",
+      "Stop Name": "Clinton (O'Hare-bound)",
+      "Parent Stop ID": 40430
+    },
+    "30085": {
+      "DIR": "W",
+      "Stop Name": "Clinton (Forest Pk-bound)",
+      "Parent Stop ID": 40430
+    },
+    "30086": {
+      "DIR": "E",
+      "Stop Name": "California (Loop-bound)",
+      "Parent Stop ID": 40440
+    },
+    "30087": {
+      "DIR": "W",
+      "Stop Name": "California (54th/Cermak-bound)",
+      "Parent Stop ID": 40440
+    },
+    "30088": {
+      "DIR": "N",
+      "Stop Name": "95th/Dan Ryan (Howard-bound)",
+      "Parent Stop ID": 40450
+    },
+    "30089": {
+      "DIR": "S",
+      "Stop Name": "95th/Dan Ryan (95th-bound)",
+      "Parent Stop ID": 40450
+    },
+    "30090": {
+      "DIR": "N",
+      "Stop Name": "Merchandise Mart (Kimball-Linden-bound)",
+      "Parent Stop ID": 40460
+    },
+    "30091": {
+      "DIR": "S",
+      "Stop Name": "Merchandise Mart (Loop-bound)",
+      "Parent Stop ID": 40460
+    },
+    "30092": {
+      "DIR": "E",
+      "Stop Name": "Racine (O'Hare-bound)",
+      "Parent Stop ID": 40470
+    },
+    "30093": {
+      "DIR": "W",
+      "Stop Name": "Racine (Forest Pk-bound)",
+      "Parent Stop ID": 40470
+    },
+    "30094": {
+      "DIR": "E",
+      "Stop Name": "Cicero (63rd-bound)",
+      "Parent Stop ID": 40480
+    },
+    "30095": {
+      "DIR": "N",
+      "Stop Name": "Grand/Milwaukee (O'Hare-bound)",
+      "Parent Stop ID": 40490
+    },
+    "30096": {
+      "DIR": "S",
+      "Stop Name": "Grand/Milwaukee (Forest Pk-bound)",
+      "Parent Stop ID": 40490
+    },
+    "30099": {
+      "DIR": "N",
+      "Stop Name": "Garfield (Harlem-bound)",
+      "Parent Stop ID": 40510
+    },
+    "30100": {
+      "DIR": "S",
+      "Stop Name": "Garfield (63rd-bound)",
+      "Parent Stop ID": 40510
+    },
+    "30101": {
+      "DIR": "N",
+      "Stop Name": "Foster (Linden-bound)",
+      "Parent Stop ID": 40520
+    },
+    "30102": {
+      "DIR": "S",
+      "Stop Name": "Foster (Howard-Loop-bound)",
+      "Parent Stop ID": 40520
+    },
+    "30103": {
+      "DIR": "N",
+      "Stop Name": "Diversey (Kimball-Linden-bound)",
+      "Parent Stop ID": 40530
+    },
+    "30104": {
+      "DIR": "S",
+      "Stop Name": "Diversey (Loop-bound)",
+      "Parent Stop ID": 40530
+    },
+    "30105": {
+      "DIR": "N",
+      "Stop Name": "Wilson (Howard-bound)",
+      "Parent Stop ID": 40540
+    },
+    "30106": {
+      "DIR": "S",
+      "Stop Name": "Wilson (95th-bound)",
+      "Parent Stop ID": 40540
+    },
+    "30107": {
+      "DIR": "N",
+      "Stop Name": "Irving Park (O'Hare Branch) (O'Hare-bound)",
+      "Parent Stop ID": 40550
+    },
+    "30108": {
+      "DIR": "S",
+      "Stop Name": "Irving Park (O'Hare Branch) (Forest Pk-bound)",
+      "Parent Stop ID": 40550
+    },
+    "30109": {
+      "DIR": "N",
+      "Stop Name": "Jackson/State (Howard-bound)",
+      "Parent Stop ID": 40560
+    },
+    "30110": {
+      "DIR": "S",
+      "Stop Name": "Jackson/State (95th-bound)",
+      "Parent Stop ID": 40560
+    },
+    "30111": {
+      "DIR": "N",
+      "Stop Name": "California (O'Hare-bound)",
+      "Parent Stop ID": 40570
+    },
+    "30112": {
+      "DIR": "S",
+      "Stop Name": "California (Forest Pk-bound)",
+      "Parent Stop ID": 40570
+    },
+    "30113": {
+      "DIR": "E",
+      "Stop Name": "54th/Cermak (Loop-bound)",
+      "Parent Stop ID": 40580
+    },
+    "30114": {
+      "DIR": "W",
+      "Stop Name": "54th/Cermak (Terminal arrival)",
+      "Parent Stop ID": 40580
+    },
+    "30115": {
+      "DIR": "N",
+      "Stop Name": "Damen/Milwaukee (O'Hare-bound)",
+      "Parent Stop ID": 40590
+    },
+    "30116": {
+      "DIR": "S",
+      "Stop Name": "Damen/Milwaukee (Forest Pk-bound)",
+      "Parent Stop ID": 40590
+    },
+    "30117": {
+      "DIR": "E",
+      "Stop Name": "Kostner (Loop-bound)",
+      "Parent Stop ID": 40600
+    },
+    "30118": {
+      "DIR": "W",
+      "Stop Name": "Kostner (54th/Cermak-bound)",
+      "Parent Stop ID": 40600
+    },
+    "30119": {
+      "DIR": "E",
+      "Stop Name": "Ridgeland (63rd-bound)",
+      "Parent Stop ID": 40610
+    },
+    "30120": {
+      "DIR": "W",
+      "Stop Name": "Ridgeland (Harlem-bound)",
+      "Parent Stop ID": 40610
+    },
+    "30121": {
+      "DIR": "N",
+      "Stop Name": "Clark/Division (Howard-bound)",
+      "Parent Stop ID": 40630
+    },
+    "30122": {
+      "DIR": "S",
+      "Stop Name": "Clark/Division (95th-bound)",
+      "Parent Stop ID": 40630
+    },
+    "30125": {
+      "DIR": "N",
+      "Stop Name": "North/Clybourn (Howard-bound)",
+      "Parent Stop ID": 40650
+    },
+    "30126": {
+      "DIR": "S",
+      "Stop Name": "North/Clybourn (95th-bound)",
+      "Parent Stop ID": 40650
+    },
+    "30127": {
+      "DIR": "N",
+      "Stop Name": "Armitage (Kimball-Linden-bound)",
+      "Parent Stop ID": 40660
+    },
+    "30128": {
+      "DIR": "S",
+      "Stop Name": "Armitage (Loop-bound)",
+      "Parent Stop ID": 40660
+    },
+    "30129": {
+      "DIR": "N",
+      "Stop Name": "Western (O'Hare Branch) (O'Hare-bound)",
+      "Parent Stop ID": 40670
+    },
+    "30130": {
+      "DIR": "S",
+      "Stop Name": "Western (O'Hare Branch) (Forest Pk-bound)",
+      "Parent Stop ID": 40670
+    },
+    "30131": {
+      "DIR": "N",
+      "Stop Name": "Adams/Wabash (Outer Loop)",
+      "Parent Stop ID": 40680
+    },
+    "30132": {
+      "DIR": "S",
+      "Stop Name": "Adams/Wabash (Inner Loop)",
+      "Parent Stop ID": 40680
+    },
+    "30133": {
+      "DIR": "N",
+      "Stop Name": "Dempster (Linden-bound)",
+      "Parent Stop ID": 40690
+    },
+    "30134": {
+      "DIR": "S",
+      "Stop Name": "Dempster (Howard-Loop-bound)",
+      "Parent Stop ID": 40690
+    },
+    "30135": {
+      "DIR": "E",
+      "Stop Name": "Laramie (63rd-bound)",
+      "Parent Stop ID": 40700
+    },
+    "30136": {
+      "DIR": "W",
+      "Stop Name": "Laramie (Harlem-bound)",
+      "Parent Stop ID": 40700
+    },
+    "30137": {
+      "DIR": "N",
+      "Stop Name": "Chicago (Kimball-Linden-bound)",
+      "Parent Stop ID": 40710
+    },
+    "30138": {
+      "DIR": "S",
+      "Stop Name": "Chicago (Loop-bound)",
+      "Parent Stop ID": 40710
+    },
+    "30139": {
+      "DIR": "E",
+      "Stop Name": "Cottage Grove (Terminal arrival)",
+      "Parent Stop ID": 40720
+    },
+    "30140": {
+      "DIR": "W",
+      "Stop Name": "Cottage Grove (Harlem-bound)",
+      "Parent Stop ID": 40720
+    },
+    "30141": {
+      "DIR": "N",
+      "Stop Name": "Washington/Wells (Inner Loop)",
+      "Parent Stop ID": 40730
+    },
+    "30142": {
+      "DIR": "S",
+      "Stop Name": "Washington/Wells (Outer Loop)",
+      "Parent Stop ID": 40730
+    },
+    "30143": {
+      "DIR": "E",
+      "Stop Name": "Western (Loop-bound)",
+      "Parent Stop ID": 40740
+    },
+    "30144": {
+      "DIR": "W",
+      "Stop Name": "Western (54th/Cermak-bound)",
+      "Parent Stop ID": 40740
+    },
+    "30145": {
+      "DIR": "N",
+      "Stop Name": "Harlem (O'Hare Branch) (O'Hare-bound)",
+      "Parent Stop ID": 40750
+    },
+    "30146": {
+      "DIR": "S",
+      "Stop Name": "Harlem (O'Hare Branch) (Forest Pk-bound)",
+      "Parent Stop ID": 40750
+    },
+    "30147": {
+      "DIR": "N",
+      "Stop Name": "Granville (Howard-bound)",
+      "Parent Stop ID": 40760
+    },
+    "30148": {
+      "DIR": "S",
+      "Stop Name": "Granville (95th-bound)",
+      "Parent Stop ID": 40760
+    },
+    "30149": {
+      "DIR": "N",
+      "Stop Name": "Lawrence (Howard-bound)",
+      "Parent Stop ID": 40770
+    },
+    "30150": {
+      "DIR": "S",
+      "Stop Name": "Lawrence (95th-bound)",
+      "Parent Stop ID": 40770
+    },
+    "30151": {
+      "DIR": "E",
+      "Stop Name": "Central Park (Loop-bound)",
+      "Parent Stop ID": 40780
+    },
+    "30152": {
+      "DIR": "W",
+      "Stop Name": "Central Park (54th/Cermak-bound)",
+      "Parent Stop ID": 40780
+    },
+    "30153": {
+      "DIR": "N",
+      "Stop Name": "Monroe (O'Hare-bound)",
+      "Parent Stop ID": 40790
+    },
+    "30154": {
+      "DIR": "S",
+      "Stop Name": "Monroe (Forest Pk-bound)",
+      "Parent Stop ID": 40790
+    },
+    "30155": {
+      "DIR": "N",
+      "Stop Name": "Sedgwick (Kimball-Linden-bound)",
+      "Parent Stop ID": 40800
+    },
+    "30156": {
+      "DIR": "S",
+      "Stop Name": "Sedgwick (Loop-bound)",
+      "Parent Stop ID": 40800
+    },
+    "30157": {
+      "DIR": "E",
+      "Stop Name": "Illinois Medical District (O'Hare-bound)",
+      "Parent Stop ID": 40810
+    },
+    "30158": {
+      "DIR": "W",
+      "Stop Name": "Illinois Medical District (Forest Pk-bound)",
+      "Parent Stop ID": 40810
+    },
+    "30159": {
+      "DIR": "N",
+      "Stop Name": "Rosemont (O'Hare-bound)",
+      "Parent Stop ID": 40820
+    },
+    "30160": {
+      "DIR": "S",
+      "Stop Name": "Rosemont (Forest Pk-bound)",
+      "Parent Stop ID": 40820
+    },
+    "30161": {
+      "DIR": "E",
+      "Stop Name": "18th (Loop-bound)",
+      "Parent Stop ID": 40830
+    },
+    "30162": {
+      "DIR": "W",
+      "Stop Name": "18th (54th/Cermak-bound)",
+      "Parent Stop ID": 40830
+    },
+    "30163": {
+      "DIR": "N",
+      "Stop Name": "South Blvd (Linden-bound)",
+      "Parent Stop ID": 40840
+    },
+    "30164": {
+      "DIR": "S",
+      "Stop Name": "South Blvd (Howard-Loop-bound)",
+      "Parent Stop ID": 40840
+    },
+    "30165": {
+      "DIR": "E",
+      "Stop Name": "H.W. Library (Outer Loop)",
+      "Parent Stop ID": 40850
+    },
+    "30166": {
+      "DIR": "W",
+      "Stop Name": "H.W. Library (Inner Loop)",
+      "Parent Stop ID": 40850
+    },
+    "30167": {
+      "DIR": "N",
+      "Stop Name": "Francisco (Kimball-bound)",
+      "Parent Stop ID": 40870
+    },
+    "30168": {
+      "DIR": "S",
+      "Stop Name": "Francisco (Loop-bound)",
+      "Parent Stop ID": 40870
+    },
+    "30169": {
+      "DIR": "N",
+      "Stop Name": "Thorndale (Howard-bound)",
+      "Parent Stop ID": 40880
+    },
+    "30170": {
+      "DIR": "S",
+      "Stop Name": "Thorndale (95th-bound)",
+      "Parent Stop ID": 40880
+    },
+    "30171": {
+      "DIR": "N",
+      "Stop Name": "O'Hare (Terminal Arrival)",
+      "Parent Stop ID": 40890
+    },
+    "30172": {
+      "DIR": "S",
+      "Stop Name": "O'Hare (Forest Pk-bound)",
+      "Parent Stop ID": 40890
+    },
+    "30173": {
+      "DIR": "N",
+      "Stop Name": "Howard (Terminal arrival)",
+      "Parent Stop ID": 40900
+    },
+    "30174": {
+      "DIR": "S",
+      "Stop Name": "Howard (95th-Bound)",
+      "Parent Stop ID": 40900
+    },
+    "30175": {
+      "DIR": "N",
+      "Stop Name": "Howard (Linden, Skokie-bound)",
+      "Parent Stop ID": 40900
+    },
+    "30176": {
+      "DIR": "S",
+      "Stop Name": "Howard (Terminal arrival)",
+      "Parent Stop ID": 40900
+    },
+    "30177": {
+      "DIR": "N",
+      "Stop Name": "63rd (Howard-bound)",
+      "Parent Stop ID": 40910
+    },
+    "30178": {
+      "DIR": "S",
+      "Stop Name": "63rd (95th-bound)",
+      "Parent Stop ID": 40910
+    },
+    "30179": {
+      "DIR": "E",
+      "Stop Name": "Pulaski (O'Hare-bound)",
+      "Parent Stop ID": 40920
+    },
+    "30180": {
+      "DIR": "W",
+      "Stop Name": "Pulaski (Forest Pk-bound)",
+      "Parent Stop ID": 40920
+    },
+    "30181": {
+      "DIR": "N",
+      "Stop Name": "Midway (Loop-bound)",
+      "Parent Stop ID": 40930
+    },
+    "30182": {
+      "DIR": "S",
+      "Stop Name": "Midway (Arrival)",
+      "Parent Stop ID": 40930
+    },
+    "30183": {
+      "DIR": "E",
+      "Stop Name": "Halsted/63rd (Harlem-bound)",
+      "Parent Stop ID": 40940
+    },
+    "30184": {
+      "DIR": "W",
+      "Stop Name": "Halsted/63rd (Ashland-bound)",
+      "Parent Stop ID": 40940
+    },
+    "30185": {
+      "DIR": "N",
+      "Stop Name": "Pulaski (Loop-bound)",
+      "Parent Stop ID": 40960
+    },
+    "30186": {
+      "DIR": "S",
+      "Stop Name": "Pulaski (Midway-bound)",
+      "Parent Stop ID": 40960
+    },
+    "30187": {
+      "DIR": "E",
+      "Stop Name": "Cicero (O'Hare-bound)",
+      "Parent Stop ID": 40970
+    },
+    "30188": {
+      "DIR": "W",
+      "Stop Name": "Cicero (Forest Pk-bound)",
+      "Parent Stop ID": 40970
+    },
+    "30189": {
+      "DIR": "E",
+      "Stop Name": "Harlem (Forest Pk Branch) (O'Hare-bound)",
+      "Parent Stop ID": 40980
+    },
+    "30190": {
+      "DIR": "W",
+      "Stop Name": "Harlem (Forest Pk Branch) (Terminal arrival)",
+      "Parent Stop ID": 40980
+    },
+    "30191": {
+      "DIR": "N",
+      "Stop Name": "69th (Howard-bound)",
+      "Parent Stop ID": 40990
+    },
+    "30192": {
+      "DIR": "S",
+      "Stop Name": "69th (95th-bound)",
+      "Parent Stop ID": 40990
+    },
+    "30193": {
+      "DIR": "N",
+      "Stop Name": "Cermak-Chinatown (Howard-bound)",
+      "Parent Stop ID": 41000
+    },
+    "30194": {
+      "DIR": "S",
+      "Stop Name": "Cermak-Chinatown (95th-bound)",
+      "Parent Stop ID": 41000
+    },
+    "30195": {
+      "DIR": "N",
+      "Stop Name": "Rockwell (Kimball-bound)",
+      "Parent Stop ID": 41010
+    },
+    "30196": {
+      "DIR": "S",
+      "Stop Name": "Rockwell (Loop-bound)",
+      "Parent Stop ID": 41010
+    },
+    "30197": {
+      "DIR": "N",
+      "Stop Name": "Logan Square (O'Hare-bound)",
+      "Parent Stop ID": 41020
+    },
+    "30198": {
+      "DIR": "S",
+      "Stop Name": "Logan Square (Forest Pk-bound)",
+      "Parent Stop ID": 41020
+    },
+    "30199": {
+      "DIR": "E",
+      "Stop Name": "Polk (Loop-bound)",
+      "Parent Stop ID": 41030
+    },
+    "30200": {
+      "DIR": "W",
+      "Stop Name": "Polk (54th/Cermak-bound)",
+      "Parent Stop ID": 41030
+    },
+    "30201": {
+      "DIR": "E",
+      "Stop Name": "Kedzie (Loop-bound)",
+      "Parent Stop ID": 41040
+    },
+    "30202": {
+      "DIR": "W",
+      "Stop Name": "Kedzie (54th/Cermak-bound)",
+      "Parent Stop ID": 41040
+    },
+    "30203": {
+      "DIR": "N",
+      "Stop Name": "Linden (Linden-bound)",
+      "Parent Stop ID": 41050
+    },
+    "30204": {
+      "DIR": "S",
+      "Stop Name": "Linden (Howard-Loop-bound)",
+      "Parent Stop ID": 41050
+    },
+    "30205": {
+      "DIR": "N",
+      "Stop Name": "Ashland (Loop-bound)",
+      "Parent Stop ID": 41060
+    },
+    "30206": {
+      "DIR": "S",
+      "Stop Name": "Ashland (Midway-bound)",
+      "Parent Stop ID": 41060
+    },
+    "30207": {
+      "DIR": "E",
+      "Stop Name": "Kedzie (63rd-bound)",
+      "Parent Stop ID": 41070
+    },
+    "30208": {
+      "DIR": "W",
+      "Stop Name": "Kedzie (Harlem-bound)",
+      "Parent Stop ID": 41070
+    },
+    "30209": {
+      "DIR": "N",
+      "Stop Name": "47th (Harlem-bound)",
+      "Parent Stop ID": 41080
+    },
+    "30210": {
+      "DIR": "S",
+      "Stop Name": "47th (63rd-bound)",
+      "Parent Stop ID": 41080
+    },
+    "30211": {
+      "DIR": "N",
+      "Stop Name": "Monroe (Howard-bound)",
+      "Parent Stop ID": 41090
+    },
+    "30212": {
+      "DIR": "S",
+      "Stop Name": "Monroe (95th-bound)",
+      "Parent Stop ID": 41090
+    },
+    "30213": {
+      "DIR": "N",
+      "Stop Name": "35-Bronzeville-IIT (Harlem-bound)",
+      "Parent Stop ID": 41120
+    },
+    "30214": {
+      "DIR": "S",
+      "Stop Name": "35-Bronzeville-IIT (63rd-bound)",
+      "Parent Stop ID": 41120
+    },
+    "30215": {
+      "DIR": "N",
+      "Stop Name": "Halsted (Loop-bound)",
+      "Parent Stop ID": 41130
+    },
+    "30216": {
+      "DIR": "S",
+      "Stop Name": "Halsted (Midway-bound)",
+      "Parent Stop ID": 41130
+    },
+    "30217": {
+      "DIR": "E",
+      "Stop Name": "King Drive (Cottage Grove-bound)",
+      "Parent Stop ID": 41140
+    },
+    "30218": {
+      "DIR": "W",
+      "Stop Name": "King Drive (Harlem-bound)",
+      "Parent Stop ID": 41140
+    },
+    "30219": {
+      "DIR": "N",
+      "Stop Name": "Kedzie (Loop-bound)",
+      "Parent Stop ID": 41150
+    },
+    "30220": {
+      "DIR": "S",
+      "Stop Name": "Kedzie (Midway-bound)",
+      "Parent Stop ID": 41150
+    },
+    "30221": {
+      "DIR": "E",
+      "Stop Name": "Clinton (Loop-63rd-bound)",
+      "Parent Stop ID": 41160
+    },
+    "30222": {
+      "DIR": "W",
+      "Stop Name": "Clinton (Harlem-54th/Cermak-bound)",
+      "Parent Stop ID": 41160
+    },
+    "30223": {
+      "DIR": "N",
+      "Stop Name": "Garfield (Howard-bound)",
+      "Parent Stop ID": 41170
+    },
+    "30224": {
+      "DIR": "S",
+      "Stop Name": "Garfield (95th-bound)",
+      "Parent Stop ID": 41170
+    },
+    "30225": {
+      "DIR": "N",
+      "Stop Name": "Kedzie (Kimball-bound)",
+      "Parent Stop ID": 41180
+    },
+    "30226": {
+      "DIR": "S",
+      "Stop Name": "Kedzie (Loop-bound)",
+      "Parent Stop ID": 41180
+    },
+    "30227": {
+      "DIR": "N",
+      "Stop Name": "Jarvis (Howard-bound)",
+      "Parent Stop ID": 41190
+    },
+    "30228": {
+      "DIR": "S",
+      "Stop Name": "Jarvis (95th-bound)",
+      "Parent Stop ID": 41190
+    },
+    "30229": {
+      "DIR": "N",
+      "Stop Name": "Argyle (Howard-bound)",
+      "Parent Stop ID": 41200
+    },
+    "30230": {
+      "DIR": "S",
+      "Stop Name": "Argyle (95th-bound)",
+      "Parent Stop ID": 41200
+    },
+    "30231": {
+      "DIR": "N",
+      "Stop Name": "Wellington (Kimball-Linden-bound)",
+      "Parent Stop ID": 41210
+    },
+    "30232": {
+      "DIR": "S",
+      "Stop Name": "Wellington (Loop-bound)",
+      "Parent Stop ID": 41210
+    },
+    "30233": {
+      "DIR": "N",
+      "Stop Name": "Fullerton (Howard-bound)",
+      "Parent Stop ID": 41220
+    },
+    "30234": {
+      "DIR": "S",
+      "Stop Name": "Fullerton (95th-bound)",
+      "Parent Stop ID": 41220
+    },
+    "30235": {
+      "DIR": "N",
+      "Stop Name": "Fullerton (Kimball-Linden-bound)",
+      "Parent Stop ID": 41220
+    },
+    "30236": {
+      "DIR": "S",
+      "Stop Name": "Fullerton (Loop-bound)",
+      "Parent Stop ID": 41220
+    },
+    "30237": {
+      "DIR": "N",
+      "Stop Name": "47th (Howard-bound)",
+      "Parent Stop ID": 41230
+    },
+    "30238": {
+      "DIR": "S",
+      "Stop Name": "47th (95th-bound)",
+      "Parent Stop ID": 41230
+    },
+    "30239": {
+      "DIR": "N",
+      "Stop Name": "Addison (O'Hare-bound)",
+      "Parent Stop ID": 41240
+    },
+    "30240": {
+      "DIR": "S",
+      "Stop Name": "Addison (Forest Pk-bound)",
+      "Parent Stop ID": 41240
+    },
+    "30241": {
+      "DIR": "N",
+      "Stop Name": "Central (Linden-bound)",
+      "Parent Stop ID": 41250
+    },
+    "30242": {
+      "DIR": "S",
+      "Stop Name": "Central (Howard-Loop-bound)",
+      "Parent Stop ID": 41250
+    },
+    "30243": {
+      "DIR": "E",
+      "Stop Name": "Austin (63rd-bound)",
+      "Parent Stop ID": 41260
+    },
+    "30244": {
+      "DIR": "W",
+      "Stop Name": "Austin (Harlem-bound)",
+      "Parent Stop ID": 41260
+    },
+    "30245": {
+      "DIR": "N",
+      "Stop Name": "43rd (Harlem-bound)",
+      "Parent Stop ID": 41270
+    },
+    "30246": {
+      "DIR": "S",
+      "Stop Name": "43rd (63rd-bound)",
+      "Parent Stop ID": 41270
+    },
+    "30247": {
+      "DIR": "N",
+      "Stop Name": "Jefferson Park (O'Hare-bound)",
+      "Parent Stop ID": 41280
+    },
+    "30248": {
+      "DIR": "S",
+      "Stop Name": "Jefferson Park (Forest Pk-bound)",
+      "Parent Stop ID": 41280
+    },
+    "30249": {
+      "DIR": "N",
+      "Stop Name": "Kimball (Terminal arrival)",
+      "Parent Stop ID": 41290
+    },
+    "30250": {
+      "DIR": "S",
+      "Stop Name": "Kimball (Loop-bound)",
+      "Parent Stop ID": 41290
+    },
+    "30251": {
+      "DIR": "N",
+      "Stop Name": "Loyola (Howard-bound)",
+      "Parent Stop ID": 41300
+    },
+    "30252": {
+      "DIR": "S",
+      "Stop Name": "Loyola (95th-bound)",
+      "Parent Stop ID": 41300
+    },
+    "30253": {
+      "DIR": "N",
+      "Stop Name": "Paulina (Kimball-bound)",
+      "Parent Stop ID": 41310
+    },
+    "30254": {
+      "DIR": "S",
+      "Stop Name": "Paulina (Loop-bound)",
+      "Parent Stop ID": 41310
+    },
+    "30255": {
+      "DIR": "N",
+      "Stop Name": "Belmont (Howard-bound)",
+      "Parent Stop ID": 41320
+    },
+    "30256": {
+      "DIR": "S",
+      "Stop Name": "Belmont (95th-bound)",
+      "Parent Stop ID": 41320
+    },
+    "30257": {
+      "DIR": "N",
+      "Stop Name": "Belmont (Kimball-Linden-bound)",
+      "Parent Stop ID": 41320
+    },
+    "30258": {
+      "DIR": "S",
+      "Stop Name": "Belmont (Loop-bound)",
+      "Parent Stop ID": 41320
+    },
+    "30259": {
+      "DIR": "N",
+      "Stop Name": "Montrose (O'Hare-bound)",
+      "Parent Stop ID": 41330
+    },
+    "30260": {
+      "DIR": "S",
+      "Stop Name": "Montrose (Forest Pk-bound)",
+      "Parent Stop ID": 41330
+    },
+    "30261": {
+      "DIR": "E",
+      "Stop Name": "LaSalle (O'Hare-bound)",
+      "Parent Stop ID": 41340
+    },
+    "30262": {
+      "DIR": "W",
+      "Stop Name": "LaSalle (Forest Pk-bound)",
+      "Parent Stop ID": 41340
+    },
+    "30263": {
+      "DIR": "E",
+      "Stop Name": "Oak Park (63rd-bound)",
+      "Parent Stop ID": 41350
+    },
+    "30264": {
+      "DIR": "W",
+      "Stop Name": "Oak Park (Harlem-bound)",
+      "Parent Stop ID": 41350
+    },
+    "30265": {
+      "DIR": "E",
+      "Stop Name": "California (63rd-bound)",
+      "Parent Stop ID": 41360
+    },
+    "30266": {
+      "DIR": "W",
+      "Stop Name": "California (Harlem-bound)",
+      "Parent Stop ID": 41360
+    },
+    "30267": {
+      "DIR": "N",
+      "Stop Name": "Bryn Mawr (Howard-bound)",
+      "Parent Stop ID": 41380
+    },
+    "30268": {
+      "DIR": "S",
+      "Stop Name": "Bryn Mawr (95th-bound)",
+      "Parent Stop ID": 41380
+    },
+    "30269": {
+      "DIR": "N",
+      "Stop Name": "Roosevelt (Howard-bound)",
+      "Parent Stop ID": 41400
+    },
+    "30270": {
+      "DIR": "S",
+      "Stop Name": "Roosevelt (95th-bound)",
+      "Parent Stop ID": 41400
+    },
+    "30271": {
+      "DIR": "N",
+      "Stop Name": "Chicago (O'Hare-bound)",
+      "Parent Stop ID": 41410
+    },
+    "30272": {
+      "DIR": "S",
+      "Stop Name": "Chicago (Forest Pk-bound)",
+      "Parent Stop ID": 41410
+    },
+    "30273": {
+      "DIR": "N",
+      "Stop Name": "Addison (Howard-bound)",
+      "Parent Stop ID": 41420
+    },
+    "30274": {
+      "DIR": "S",
+      "Stop Name": "Addison (95th-bound)",
+      "Parent Stop ID": 41420
+    },
+    "30275": {
+      "DIR": "N",
+      "Stop Name": "87th (Howard-bound)",
+      "Parent Stop ID": 41430
+    },
+    "30276": {
+      "DIR": "S",
+      "Stop Name": "87th (95th-bound)",
+      "Parent Stop ID": 41430
+    },
+    "30277": {
+      "DIR": "N",
+      "Stop Name": "Addison (Kimball-bound)",
+      "Parent Stop ID": 41440
+    },
+    "30278": {
+      "DIR": "S",
+      "Stop Name": "Addison (Loop-bound)",
+      "Parent Stop ID": 41440
+    },
+    "30279": {
+      "DIR": "N",
+      "Stop Name": "Chicago (Howard-bound)",
+      "Parent Stop ID": 41450
+    },
+    "30280": {
+      "DIR": "S",
+      "Stop Name": "Chicago (95th-bound)",
+      "Parent Stop ID": 41450
+    },
+    "30281": {
+      "DIR": "N",
+      "Stop Name": "Irving Park (Kimball-bound)",
+      "Parent Stop ID": 41460
+    },
+    "30282": {
+      "DIR": "S",
+      "Stop Name": "Irving Park (Loop-bound)",
+      "Parent Stop ID": 41460
+    },
+    "30283": {
+      "DIR": "N",
+      "Stop Name": "Western (Kimball-bound)",
+      "Parent Stop ID": 41480
+    },
+    "30284": {
+      "DIR": "S",
+      "Stop Name": "Western (Loop-bound)",
+      "Parent Stop ID": 41480
+    },
+    "30285": {
+      "DIR": "N",
+      "Stop Name": "Harrison (Howard-bound)",
+      "Parent Stop ID": 41490
+    },
+    "30286": {
+      "DIR": "S",
+      "Stop Name": "Harrison (95th-bound)",
+      "Parent Stop ID": 41490
+    },
+    "30287": {
+      "DIR": "N",
+      "Stop Name": "Montrose (Kimball-bound)",
+      "Parent Stop ID": 41500
+    },
+    "30288": {
+      "DIR": "S",
+      "Stop Name": "Montrose (Loop-bound)",
+      "Parent Stop ID": 41500
+    },
+    "30289": {
+      "DIR": "N",
+      "Stop Name": "Lake (Howard-bound)",
+      "Parent Stop ID": 41660
+    },
+    "30290": {
+      "DIR": "S",
+      "Stop Name": "Lake (95th-bound)",
+      "Parent Stop ID": 41660
+    },
+    "30291": {
+      "DIR": "E",
+      "Stop Name": "Conservatory (63rd-bound)",
+      "Parent Stop ID": 41670
+    },
+    "30292": {
+      "DIR": "W",
+      "Stop Name": "Conservatory (Harlem-bound)",
+      "Parent Stop ID": 41670
+    },
+    "30293": {
+      "DIR": "N",
+      "Stop Name": "Sheridan (Howard-Linden-bound)",
+      "Parent Stop ID": 40080
+    },
+    "30294": {
+      "DIR": "S",
+      "Stop Name": "Sheridan (Loop-bound)",
+      "Parent Stop ID": 40080
+    },
+    "30295": {
+      "DIR": "E",
+      "Stop Name": "Morgan (Loop-63rd-bound)",
+      "Parent Stop ID": 41510
+    },
+    "30296": {
+      "DIR": "W",
+      "Stop Name": "Morgan (Harlem-54th/Cermak-bound)",
+      "Parent Stop ID": 41510
+    },
+    "30297": {
+      "DIR": "N",
+      "Stop Name": "Oakton-Skokie (Dempster-Skokie-bound)",
+      "Parent Stop ID": 41680
+    },
+    "30298": {
+      "DIR": "S",
+      "Stop Name": "Oakton-Skokie (Howard-bound)",
+      "Parent Stop ID": 41680
+    },
+    "30374": {
+      "DIR": "S",
+      "Stop Name": "Clark/Lake (Forest Pk-bound)",
+      "Parent Stop ID": 40380
+    },
+    "30375": {
+      "DIR": "N",
+      "Stop Name": "Clark/Lake (O'Hare-bound)",
+      "Parent Stop ID": 40380
+    },
+    "30381": {
+      "DIR": "N",
+      "Stop Name": "Cermak-McCormick Place (Harlem-bound)",
+      "Parent Stop ID": 41690
+    },
+    "30382": {
+      "DIR": "S",
+      "Stop Name": "Cermak-McCormick Place (63rd-bound)",
+      "Parent Stop ID": 41690
+    },
+    "30383": {
+      "DIR": "N",
+      "Stop Name": "Washington/Wabash (Outer Loop)",
+      "Parent Stop ID": 41700
+    },
+    "30384": {
+      "DIR": "S",
+      "Stop Name": "Washington/Wabash (Inner Loop)",
+      "Parent Stop ID": 41700
+    },
+    "30385": {
+      "DIR": "S",
+      "Stop Name": "Wilson (Loop-bound)",
+      "Parent Stop ID": 40540
+    },
+    "30386": {
+      "DIR": "N",
+      "Stop Name": "Wilson (Linden-bound)",
+      "Parent Stop ID": 40540
+    }
+  }

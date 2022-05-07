@@ -1,29 +1,46 @@
+require('dotenv').config()
 const express = require('express')
 const bodyParser = require('body-parser');
 const cors = require('cors');
-var request = require('request');
+const axios = require('axios');
+var fs = require('fs');
 
 const app = express();
 const port = 3000;
+// roosevelt 41400
+// damen     40590
+const mapid = 41400
+var parentStopData;
+
+fs.readFile('./src/assets/parent-stop-mappings.json', 'utf8', function (err, data) {
+  if (err) throw err;
+  parentStopData = JSON.parse(data);
+});
 
 app.use(cors());
-
 // Configuring body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get('/trains', (_req, res) => {
-    // We will be coding here
-    request({
-      uri: 'http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx',
-      qs: {
-        key: process.env.CTA_API_KEY,
-        max: '5',
-        mapid: '40590',
-        outputType: 'JSON',
-        // stpid: '30080'
+  // make a call to CTA API
+    axios.get(
+      'http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx',
+      {
+        params: {
+          key: process.env.CTA_API_KEY,
+          max: '5',
+          mapid: mapid,
+          outputType: 'JSON',
+          // stpid: '30080'
+        }
       }
-    }).pipe(res);
+    ).then(function (response) {
+      res.send({name: parentStopData[mapid].descriptiveName, ...response.data})
+    })
+    .catch(function (error) {
+      console.log(error)
+    })
 });
 
 app.listen(port, () => console.log(`Train data piped to port: ${port}!`));
