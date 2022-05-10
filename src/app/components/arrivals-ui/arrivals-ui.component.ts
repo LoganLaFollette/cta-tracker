@@ -30,15 +30,25 @@ const etaProgressSeconds = 600; // 10 minutes
 export class ArrivalsUiComponent implements OnInit {
   trains: CtaArrival[];
   stationName: string;
+  date:string;
+  hours:any;
+  minutes:any;
+  seconds:any;
+  currentLocale: any;
 
+  isTwelveHrFormat:false;
   constructor(
     private trainService: TrainService,
   ) {
+    setInterval(() =>{
+      const currentDate = new Date();
+      this.date = currentDate.toLocaleTimeString();
+    }, 1000);
+    // this.date = new Date().toLocaleTimeString();
     this.trains = TRAIN_DATA;
   }
   
   ngOnInit(): void {
-    manageClock();
     setInterval(() => { 
       this.getEtas(); 
     }, 5000);
@@ -70,32 +80,6 @@ export class ArrivalsUiComponent implements OnInit {
    });
   }
 
-}
-
-function manageClock() {
-  // Javascript is used to set the clock to your computer time.
-  var currentSec = getSecondsToday();
-
-  var seconds = (currentSec / 60) % 1;
-  var minutes = (currentSec / 3600) % 1;
-  var hours = (currentSec / 43200) % 1;
-
-  setTime(60 * seconds, "second");
-  setTime(3600 * minutes, "minute");
-  setTime(43200 * hours, "hour");
-}
-
-function setTime(left, hand) {
-  $(".clock__" + hand).css("animation-delay", "" + left * -1 + "s");
-}
-
-function getSecondsToday() {
-  let now = new Date();
-
-  let today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-
-  let diff = now.valueOf() - today.valueOf(); 
-  return Math.round(diff / 1000);
 }
 
 function getArrivalPercentage(eta: string) {

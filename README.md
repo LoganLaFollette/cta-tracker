@@ -17,6 +17,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - Typescript version: 4.6.3 (tsc -v)
 - Node version:       14+ (seems to work best for me)
+- Angular CLI:        13.3.5 (updated)
 
 ## Development server
 

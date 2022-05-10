@@ -29,7 +29,7 @@ app.get('/trains', (_req, res) => {
       {
         params: {
           key: process.env.CTA_API_KEY,
-          max: '5',
+          max: '10',
           mapid: mapid,
           outputType: 'JSON',
           // stpid: '30080'
