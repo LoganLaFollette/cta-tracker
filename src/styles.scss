@@ -65,3 +65,8 @@ $angular-dark-theme: mat.define-dark-theme(
 .mat-progress-bar-buffer {
   background-color: black !important;
 }
+
+@font-face {
+  font-family: "Orbitron";
+  src: local("Orbitron"), url(./assets/Orbitron-Regular.ttf) format("truetype");
+}
