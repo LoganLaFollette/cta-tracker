@@ -7,10 +7,7 @@
         <div class="iconDiv">
             <span class="etaText"> {{train.etaStr}} </span>
             <span class="etaTime">Arriving at {{train.arrivalTime}}</span>
-            
-            <div class="trainPosition" *ngIf="train.percentage > 11" [ngStyle]="{
-                    'margin-left': train.percentage-2+'%'
-            }">
+            <div class="trainPosition" *ngIf="train.percentage > 11" [ngStyle]="{'margin-left': train.percentage-2+'%'}">
                 <mat-icon class="trainIcon">train</mat-icon>
             </div>
         </div>
