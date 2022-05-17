@@ -1,5 +1,4 @@
 <div class="arrivals-container container-fluid"> 
-    <p>arrivals-ui works!</p>
     <div class="clock-container clock2">
         <div class="time sudo">{{date}}</div>
     </div>
@@ -9,7 +8,11 @@
             <span class="etaText"> {{train.etaStr}} </span>
             <span class="etaTime">Arriving at {{train.arrivalTime}}</span>
             
-            <div class="trainPosition" *ngIf="train.percentage > 11" [ngStyle]="{ 'margin-left': train.percentage-1+'%' }"><mat-icon class="trainIcon">train</mat-icon></div>
+            <div class="trainPosition" *ngIf="train.percentage > 11" [ngStyle]="{
+                    'margin-left': train.percentage-2+'%'
+            }">
+                <mat-icon class="trainIcon">train</mat-icon>
+            </div>
         </div>
         <mat-progress-bar [ngClass]="{
             'green-progress': train.line === 'green',
@@ -18,7 +21,6 @@
             'orange-progress': train.line === 'orange'
         }" mode="buffer" value={{train.percentage}}>
         </mat-progress-bar>
-        <!-- <div style="position: absolute; padding: 10px;"> test </div> -->
         <br>
     </div>
 </div>

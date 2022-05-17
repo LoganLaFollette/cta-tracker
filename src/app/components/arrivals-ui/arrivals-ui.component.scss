@@ -9,12 +9,11 @@
   float:right;
 }
 .trainPosition{
-  padding-bottom: 5px;
+  // padding-bottom: 5px;
 }
 .trainIcon{
   display: flex;
-  position: fixed;
-  margin-top: -5px;
+  position: sticky;
   z-index: 10;
 }
 

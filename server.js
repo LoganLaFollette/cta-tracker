@@ -1,12 +1,12 @@
-require('dotenv').config()
-const express = require('express')
+//Install express server
+const express = require('express');
+const path = require('path');
 const bodyParser = require('body-parser');
-const cors = require('cors');
 const axios = require('axios');
 var fs = require('fs');
 
 const app = express();
-const port = 3000;
+
 // roosevelt 41400
 // damen     40590
 const mapid = 41400
@@ -17,15 +17,11 @@ fs.readFile('./src/assets/parent-stop-mappings.json', 'utf8', function (err, dat
   parentStopData = JSON.parse(data);
 });
 
-app.use(cors({
-  origin: 'http://www.the-cta-tracker.com'
-}));
 // Configuring body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.options('/trains', cors())
-app.get('/trains', cors(), (_req, res) => {
+app.get('/trains', (_req, res) => {
   // make a call to CTA API
     axios.get(
       'http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx',
@@ -46,8 +42,12 @@ app.get('/trains', cors(), (_req, res) => {
     })
 });
 
-var server = app.listen(port, () => {
-  var host = server.address().address;
-  var port = server.address().port;
-    console.log("server is listening at http://%s:%s", host, port);
+// Serve only the static files form the dist directory
+app.use(express.static(__dirname + '/dist/cta-tracker'));
+
+app.get('/*', function(req,res) {
+res.sendFile(path.join(__dirname+'/dist/cta-tracker/index.html'));
 });
+
+// Start the app by listening on the default Heroku port
+app.listen(process.env.PORT || 8080);
