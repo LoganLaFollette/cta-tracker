@@ -17,4 +17,7 @@ export class TrainService {
     return this.http.get<CtaResponse>(this.baseUrl + '/trains')
   }
 
+  getStopName() {
+    return this.http.get<String>(this.baseUrl + '/stopName')
+  }
 }
