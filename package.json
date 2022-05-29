@@ -7,7 +7,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "node train-api.js & node server.js",
+    "start": "node train-api.js & ng serve --watch",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

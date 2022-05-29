@@ -16,10 +16,6 @@ export class CtaArrival implements ICtaArrival {
         this.percentage = percentage
         this.arrivalTime = arrivalTime
      }
-    // public getPosition() { return this.position; }
-    // public getLine() { return this.line; }
-    // public getHeading() { return this.heading; }
-    // public getEtaStr() { return this.etaStr; }
 }
 
 export enum LineColor {

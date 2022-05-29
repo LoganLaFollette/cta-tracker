@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { TrainService } from './../../services/train.service';
 import * as _ from "lodash"
 import { CtaArrival, LineColor } from 'src/app/models/arrival.model';
-import * as $ from 'jquery';
 import { CtaResponse } from 'src/app/models/eta';
 import { calculateEtaString } from '../train/utils/ctaUtils';
 
@@ -31,10 +30,6 @@ export class ArrivalsUiComponent implements OnInit {
   trains: CtaArrival[];
   stationName: string;
   date:string;
-  hours:any;
-  minutes:any;
-  seconds:any;
-  currentLocale: any;
 
   isTwelveHrFormat:false;
   constructor(
@@ -44,8 +39,7 @@ export class ArrivalsUiComponent implements OnInit {
       const currentDate = new Date();
       this.date = currentDate.toLocaleTimeString();
     }, 1000);
-    // this.date = new Date().toLocaleTimeString();
-    this.trains = TRAIN_DATA;
+    // this.trains = TRAIN_DATA;
   }
   
   ngOnInit(): void {
@@ -60,7 +54,7 @@ export class ArrivalsUiComponent implements OnInit {
       var trainDataEtas = etas.ctatt.eta;
       // console.log(trainData);
       var pos = 1;
-      const updatedTrains = _.map(trainDataEtas, function(eta) {
+      const trains = _.map(trainDataEtas, function(eta) {
         var estArrivalTime = eta.arrT
         var arrivalPct = getArrivalPercentage(estArrivalTime)
         return new CtaArrival(
@@ -72,10 +66,6 @@ export class ArrivalsUiComponent implements OnInit {
           new Date(estArrivalTime).toLocaleTimeString()
         )
       })
-
-      // TRAIN_DATA.push(newTrain);  
-      // this.dataSource = updatedTrains;
-      this.trains = updatedTrains;
       this.stationName = data.name
    });
   }
