@@ -5,8 +5,7 @@ import { TrainComponent } from './components/train/train.component';
 
 
 const routes: Routes = [
-  { path: '', component: TrainComponent },
-  { path: 'uiUnstable', component: ArrivalsUiComponent },
+  { path: '', component: ArrivalsUiComponent },
 ];
 
 @NgModule({

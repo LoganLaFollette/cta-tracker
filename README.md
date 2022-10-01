@@ -1,3 +1,6 @@
+![image](https://user-images.githubusercontent.com/20171166/170888143-1fdcc7f1-32ae-4b73-baf9-5e46568c3fa6.png)
+
+
 # CTATracker Basic Setup
 
 >**Prerequisites:**
@@ -7,7 +10,7 @@
 1) Create a new project folder e.g cta-tracker
 2) Pull down the repo: ```git clone https://github.com/LoganLaFollette/cta-tracker.git```
 3) Install the required node modules: ```npm install```
-4) Start up the express cta api server: ```node train-api.js``` this starts an express server that constantly serves API data to localhost:3000/trains
+4) Start up the express cta api server: ```node server.js``` this starts an express server that constantly serves API data to localhost:8080/trains
 5) Start up the angular application: ```ng serve```
 6) Head to localhost:4200 and view train data!
 
@@ -27,17 +30,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build and Develop
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Use ng serve --watch to run and rebuild automatically
 
 ## Further help
 
