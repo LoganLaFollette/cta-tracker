@@ -24,6 +24,15 @@ app.use(cors({
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// Rate Limiter
+var RateLimit = require('express-rate-limit');
+var limiter = new RateLimit({
+  windowMs: 1*60*1000, // 1 minute - TODO: check CTA rate limit
+  max: 10
+});
+// apply rate limiter
+app.use(limiter);
+
 app.options('/trains', cors())
 app.get('/trains', cors(), (_req, res) => {
   // make a call to CTA API
