@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { TrainService } from './../../services/train.service';
 import * as _ from "lodash"
-import { CtaArrival, LineColor } from 'src/app/models/arrival.model';
-import { CtaResponse } from 'src/app/models/eta';
+import { CtaArrival, LineColor } from '../../models/arrival.model';
+import { CtaResponse } from '../../models/eta';
 import { calculateEtaString } from '../train/utils/ctaUtils';
 
 const trainColorMap = new Map([
@@ -59,7 +59,7 @@ export class ArrivalsUiComponent implements OnInit {
         var arrivalPct = getArrivalPercentage(estArrivalTime)
         return new CtaArrival(
           ++pos,
-          trainColorMap.get(eta.rt),
+          trainColorMap.get(eta.rt)!,
           eta.destNm,
           calculateEtaString(estArrivalTime),
           arrivalPct < 0 ? 0 : arrivalPct,

@@ -8,9 +8,7 @@
 .etaTime{
   float:right;
 }
-.trainPosition{
-  // padding-bottom: 5px;
-}
+
 .trainIcon{
   display: flex;
   position: sticky;
@@ -19,17 +17,12 @@
 
 // clock
 .clock-container{
-  // border: 2px dotted;
-  // border-radius: 40px;
   font-size:35px;
-  /*line-height:25px;*/
-  // color:white;
   height:100%;
   font-weight: 500;
 }
 .clock, .clock2 {
   top:30%;
-  // background-color: #3c434c;
   width:50%;
   height:100%;
   margin:10px auto;
@@ -42,9 +35,7 @@
   height: 100%;
   text-align: center;
 }
-.clock2 {
-  // background-color: #202731;
-}
+
 .time{
   width:100% !important;
   font-family: Orbitron !important;
