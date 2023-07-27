@@ -50,7 +50,6 @@
     "@types/jquery": "^3.5.14",
     "@types/lodash": "^4.14.182",
     "@types/node": "^12.11.1",
-    "codelyzer": "^5.1.2",
     "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~4.2.1",
