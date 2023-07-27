@@ -46,7 +46,7 @@ export class ArrivalsUiComponent implements OnInit {
   ngOnInit(): void {
     setInterval(() => { 
       this.getEtas(); 
-    }, 5000);
+    }, 1000);
   }
 
   getEtas() {
