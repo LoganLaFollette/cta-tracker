@@ -1,10 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TrainComponent } from './components/train/train.component';
 import { MatIconModule } from '@angular/material/icon';
 import { ArrivalsUiComponent } from './components/arrivals-ui/arrivals-ui.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -16,8 +14,7 @@ import { MatSliderModule } from '@angular/material/slider';
 @NgModule({
   declarations: [
     AppComponent,
-    TrainComponent,
-    ArrivalsUiComponent
+    ArrivalsUiComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,8 @@ const express = require('express')
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const axios = require('axios');
-var fs = require('fs');
+const fs = require('fs');
+const RateLimit = require('express-rate-limit');
 
 const app = express();
 const port = 3000;
@@ -25,8 +26,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Rate Limiter
-var RateLimit = require('express-rate-limit');
-var limiter = new RateLimit({
+var limiter = RateLimit.rateLimit({
   windowMs: 1*60*1000, // 1 minute - TODO: check CTA rate limit
   max: 10
 });
@@ -44,7 +44,28 @@ app.get('/trains', cors(), (_req, res) => {
           max: '10',
           mapid: mapid,
           outputType: 'JSON',
-          // stpid: '30080'
+          stpid: '30080'
+        }
+      }
+    ).then(function (response) {
+      res.send({name: parentStopData[mapid].descriptiveName, ...response.data})
+    })
+    .catch(function (error) {
+      console.log(error)
+    })
+});
+
+app.get('/trains', cors(), (_req, res) => {
+  // make a call to CTA API
+    axios.get(
+      'http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx',
+      {
+        params: {
+          key: process.env.CTA_API_KEY,
+          max: '10',
+          mapid: mapid,
+          outputType: 'JSON',
+          stpid: '30080'
         }
       }
     ).then(function (response) {
