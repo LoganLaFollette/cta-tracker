@@ -1,6 +1,7 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
 import { UntypedFormControl } from '@angular/forms';
-import { TrainService } from './services/train.service';
+import { TrainService } from './service/train.service';
+import { CtaResponse } from './model/eta';
 
 @Component({
   selector: 'app-root',
@@ -11,7 +12,8 @@ export class AppComponent implements OnInit {
   @HostBinding('class') className = '';
   toggleControl = new UntypedFormControl(false);
   title = 'cta-tracker';
-  
+  stopName:String = '';
+
   constructor(
     private trainService: TrainService,
   ) {}
@@ -22,6 +24,9 @@ export class AppComponent implements OnInit {
       this.className = darkMode ? darkClassName : '';
     });
 
-    this.trainService.getStopName()
+    this.trainService.getTrains().subscribe(data => {
+      var etas = data as CtaResponse;
+      this.stopName = data.name;
+    });
   }
 }

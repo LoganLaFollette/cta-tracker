@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { TrainService } from './../../services/train.service';
+import { TrainService } from '../../service/train.service';
 import * as _ from "lodash"
-import { CtaArrival, LineColor } from '../../models/arrival.model';
-import { CtaResponse } from '../../models/eta';
-import { calculateEtaString } from '../train/utils/ctaUtils';
+import { CtaArrival, LineColor } from '../../model/arrival.model';
+import { CtaResponse } from '../../model/eta';
+import { calculateEtaString } from '../../service/util/ctaUtils';
 
 const trainColorMap = new Map([
   ['G', LineColor.green],
@@ -12,12 +12,13 @@ const trainColorMap = new Map([
   ['Red', LineColor.red]
 ])
 
-var TRAIN_DATA: CtaArrival[] = [
-  new CtaArrival(1, LineColor.orange, 'Loop', '2 min', 100, "10:20pm"),
-  new CtaArrival(2, LineColor.green, 'Harlem/Lake', '5 min 30 seconds', 50, "10:34pm"),
-  new CtaArrival(3, LineColor.red, 'Loop', '10 min', 24, "10:43pm"),
-  new CtaArrival(3, LineColor.blue, 'Loop', '15 min and 10 seconds', 12, "10:50pm"),
-];
+// mock train data
+// var TRAIN_DATA: CtaArrival[] = [
+//   new CtaArrival(1, LineColor.orange, 'Loop', '2 min', 100, "10:20pm"),
+//   new CtaArrival(2, LineColor.green, 'Harlem/Lake', '5 min 30 seconds', 50, "10:34pm"),
+//   new CtaArrival(3, LineColor.red, 'Loop', '10 min', 24, "10:43pm"),
+//   new CtaArrival(3, LineColor.blue, 'Loop', '15 min and 10 seconds', 12, "10:50pm"),
+// ];
 
 const etaProgressSeconds = 600; // 10 minutes
 
@@ -54,7 +55,7 @@ export class ArrivalsUiComponent implements OnInit {
       var trainDataEtas = etas.ctatt.eta;
       // console.log(trainData);
       var pos = 1;
-      const trains = _.map(trainDataEtas, function(eta) {
+      this.trains = _.map(trainDataEtas, function(eta) {
         var estArrivalTime = eta.arrT
         var arrivalPct = getArrivalPercentage(estArrivalTime)
         return new CtaArrival(
