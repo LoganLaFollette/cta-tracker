@@ -10,7 +10,7 @@
 1) Create a new project folder e.g cta-tracker
 2) Pull down the repo: ```git clone https://github.com/LoganLaFollette/cta-tracker.git```
 3) Install the required node modules: ```npm install```
-4) Start up the express cta api server: ```node train-api.js``` this starts an express server that constantly serves API data to localhost:3000/trains
+4) Start up the express cta api server: ```node server.js``` this starts an express server that constantly serves API data to localhost:3000/trains
 5) Start up the angular application: ```ng serve```
 6) Head to localhost:4200 and view train data!
 

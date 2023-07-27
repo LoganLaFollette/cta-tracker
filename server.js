@@ -1,12 +1,14 @@
-//Install express server
-const express = require('express');
-const path = require('path');
+require('dotenv').config()
+const express = require('express')
 const bodyParser = require('body-parser');
+const cors = require('cors');
 const axios = require('axios');
-var fs = require('fs');
+const fs = require('fs');
+const RateLimit = require('express-rate-limit');
+const path = require('path');
 
 const app = express();
-
+const port = process.env.PORT || 3000;
 // roosevelt 41400
 // damen     40590
 const mapid = 41400
@@ -17,11 +19,24 @@ fs.readFile('./src/assets/parent-stop-mappings.json', 'utf8', function (err, dat
   parentStopData = JSON.parse(data);
 });
 
+app.use(cors({
+  origin: 'http://www.cta-tracker.com'
+}));
 // Configuring body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/trains', (_req, res) => {
+// Rate Limiter
+var limiter = RateLimit.rateLimit({
+  windowMs: 1*60*1000, // 1 minute - TODO: check CTA rate limit
+  max: 10
+});
+// TODO: fix rate limiter
+// apply rate limiter
+// app.use(limiter);
+
+app.options('/trains', cors())
+app.get('/trains', cors(), (_req, res) => {
   // make a call to CTA API
     axios.get(
       'http://lapi.transitchicago.com/api/1.0/ttarrivals.aspx',
@@ -49,8 +64,7 @@ app.get('/*', function(req,res) {
   res.sendFile(path.join(__dirname+'/dist/cta-tracker/index.html'));
 });
 
-// Start the app by listening on the default Heroku port
-var server = app.listen(process.env.PORT || 8080, () => {
+var server = app.listen(port, '0.0.0.0', () => {
   var host = server.address().address;
   var port = server.address().port;
     console.log("server is listening at http://%s:%s", host, port);

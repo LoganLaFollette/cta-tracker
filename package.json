@@ -1,13 +1,14 @@
 {
   "name": "cta-tracker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "engines": {
-    "node": ">=14.0.0",
-    "npm": "8.5.5"
+    "node": "18.10.0",
+    "npm": "8.19.2"
   },
   "scripts": {
     "ng": "ng",
-    "start": "node train-api.js & ng serve --watch",
+    "start": "node server.js & ng serve --watch",
+    "start-prod": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -16,6 +17,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-devkit/build-angular": "^14.2.12",
     "@angular/animations": "^14.3.0",
     "@angular/cdk": "^14.2.7",
     "@angular/cli": "^14.2.12",
@@ -28,6 +30,7 @@
     "@angular/platform-browser": "^14.3.0",
     "@angular/platform-browser-dynamic": "^14.3.0",
     "@angular/router": "^14.3.0",
+    "@types/node": "^20.4.5",
     "axios": "^0.27.2",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
@@ -44,13 +47,11 @@
     "zone.js": "~0.11.5"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^14.2.12",
     "@angular/language-service": "^14.3.0",
     "@types/jasmine": "~3.8.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/jquery": "^3.5.14",
     "@types/lodash": "^4.14.182",
-    "@types/node": "^12.11.1",
     "enhanced-resolve": "^3.3.0",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~4.2.1",
