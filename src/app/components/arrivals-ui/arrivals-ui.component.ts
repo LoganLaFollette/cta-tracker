@@ -77,7 +77,7 @@ function getArrivalPercentage(eta: string) {
   var estArrivalTime = new Date(eta).getTime();
   var currTime = new Date().getTime();
   var diff = estArrivalTime - currTime;
-  var seconds = Math.round(diff / 1000);
+  var seconds = diff / 1000;
   var etaPercentage = (etaProgressSeconds - seconds) / etaProgressSeconds;
-  return Math.round(etaPercentage * 100)
+  return etaPercentage * 100
 }
