@@ -134,8 +134,7 @@
 				}
 			}
 		}
-	},
-	"defaultProject": "cta-tracker",
+  },
 	"schematics": {
 		"@schematics/angular:component": {
 			"styleext": "scss"

@@ -1,5 +1,5 @@
 import { Component, HostBinding, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { TrainService } from './services/train.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { TrainService } from './services/train.service';
 })
 export class AppComponent implements OnInit {
   @HostBinding('class') className = '';
-  toggleControl = new FormControl(false);
+  toggleControl = new UntypedFormControl(false);
   title = 'cta-tracker';
   
   constructor(
