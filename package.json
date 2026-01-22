@@ -39,7 +39,7 @@
     "express": "^4.17.1",
     "express-rate-limit": "^6.8.0",
     "jquery": "^3.6.0",
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.23",
     "request": "^2.88.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
